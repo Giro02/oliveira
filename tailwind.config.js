@@ -5,14 +5,23 @@ module.exports = {
     `./src/components/**/*.{js,jsx,ts,tsx}`,
   ],
   theme: {
+    extend:{
+      backgroundImage:{
+        fundo1:"url('/public/src/static/6045255.jpg')"
+      }
+    },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
+    
     colors:{
       color:{
+        blacktrans:"#272727fc",
+        black2:"#222222",
         black:"#282828",
         white:"rgb(255 255 255)",
+        clicado:'#C39F76',
       }
     },
   },

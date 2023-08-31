@@ -1,22 +1,24 @@
-// Step 1: Import React
+
 import * as React from 'react'
 import { Link } from 'gatsby'
-import Menu from '../components/menu'
+import Navbar from "../components/Navbar"
+import Topnav from "../components/topnav"
+import Atua from "../components/atuacao_inicial"
+import Carousel from "../components/Carousel"
 
 
-
-// Step 2: Define your component
 const IndexPage = () => {
   return (
     <main>
-      <Menu/>
-      <Link to="/about">about</Link>
+      <Topnav></Topnav> 
+      <Navbar/>
+      <Atua></Atua>
+      <Carousel></Carousel>
+
     </main>
   )
 }
 
-// You'll learn about this in the next task, just copy it for now
-export const Head = () => <title>Home</title>
+export const Head = () => <title>Oliveira Severo</title>
 
-// Step 3: Export your component
 export default IndexPage

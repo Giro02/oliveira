@@ -13,6 +13,7 @@ module.exports = {
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      open:['Open Sans', 'sans-serif']
     },
     
     colors:{

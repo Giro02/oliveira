@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className='bg-color-black text-color-white '>
+      <nav className='bg-color-black text-color-white font-serif text-base'>
         <div className=" items-center flex justify-around min-h-[80px]">
           <Link className='' to="/">
               <img src={'../static/medmarrom.png'} alt='logoo'></img>
@@ -28,7 +28,7 @@ const Navbar = () => {
             </button>
           </div>
           {/* <div className={`md:flex ${isOpen ? 'block' : 'hidden'}`}> */}
-            <ul className="md:flex mt-30 md:mt-0 gap-10 font-bold text-sm hidden">
+            <ul className="md:flex mt-30 md:mt-0 gap-8 font-lg hidden">
               <li>
                 <Link
                   to="/"
@@ -82,7 +82,7 @@ const Navbar = () => {
         
         <div className="flex-col md:hidden mx-auto justify-center text-center ">
           <div className={` md:flex ${isOpen ? 'block' : 'hidden'}`}>
-              <ul className=" mt-30 md:mt-0 gap-10 font-bold text-sm mx-auto pb-5">
+              <ul className=" mt-30 md:mt-0 gap-10 font-bold mx-auto pb-5">
                 <li>
                   <Link
                     to="/"
@@ -142,9 +142,6 @@ const Navbar = () => {
 export default Navbar;
 
 
-/**
- * This component renders a small helper to view which Tailwind screen size is being applied
- */
 export function DevScreenDebug() {
   const [dimensions, setDimensions] = useState({w: 0, h: 0});
   const [hidden, setHidden] = useState(false);

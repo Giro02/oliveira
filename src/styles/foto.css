@@ -1,0 +1,9 @@
+.foto{
+    float: right;
+    background-image: url('../../public/static/escritorio.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 500px;
+}

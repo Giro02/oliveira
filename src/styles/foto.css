@@ -7,3 +7,21 @@
     width: 960px;
     height: 500px;
 }
+.foto2{
+    float: left;
+    background-image: url('../../public/static/mapasemlogo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 500px;
+}
+.foto_familia{
+    float: left;
+    background-image: url('../../public/static/familia.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 500px;
+}

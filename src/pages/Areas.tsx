@@ -1,11 +1,19 @@
 import React from 'react'
 import Navbar from "../components/Navbar"
+import Topnav from "../components/topnav"
+import Familiar_atua from "../components/familiar_atua"
+import FamiliarIntro_atua from "../components/familiarIntro_atua"
+import Footer from "../components/footer"
 
 
 export default function Areas() {
   return (
     <main>
+      <Topnav></Topnav>
       <Navbar/>
+      <Familiar_atua></Familiar_atua>
+      <FamiliarIntro_atua></FamiliarIntro_atua>
+      <Footer></Footer>
     </main>
   )
 }

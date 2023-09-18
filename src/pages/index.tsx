@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Navbar from "../components/Navbar"
 import Topnav from "../components/topnav"
 import Atua from "../components/atuacao_inicial"
-import Carousel from "../components/Carousel"
+import { EmblaCarousel } from "../components/Carousel"
 import Apresentacao from "../components/apresentacao"
 import Agende from "../components/agende"
 import Footer from "../components/footer"
@@ -18,7 +18,7 @@ const IndexPage = () => {
     <main>
       <Topnav></Topnav> 
       <Navbar/>
-      <Carousel></Carousel>
+      <EmblaCarousel></EmblaCarousel>
       <Atua></Atua>
       <Apresentacao></Apresentacao>
       <Top_reuniao></Top_reuniao>

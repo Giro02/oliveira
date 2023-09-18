@@ -10,7 +10,7 @@ import { MdEmail } from "react-icons/md"
 
 export default function footer() {
   return (
-    <div className='bg-color-black p-16 px-16 font-serif'>
+    <div className='bg-color-black2 p-16 px-8 md:px-16 font-serif'>
       <div className='flex flex-col lg:flex-row justify-evenly p-6 md:p-12 border border-color-clicado'>
         
         <div className='flex flex-col gap-6 justify-evenly'>
@@ -163,17 +163,17 @@ export default function footer() {
 
           <div>
             <div className='text-color-clicado font-bold text-lg'>Onde estamos</div>
-            <div className="flex pb-2  bg-color-black   border-b border-color-clicado/70 items-center">
+            <div className="flex pb-2  bg-color-black2   border-b border-color-clicado/70 items-center">
               <FaLocationDot className='text-3xl text-color-clicado'></FaLocationDot>
               <div className='text-color-white ml-2 text-sm'>R. São Paulo 1071, sala 515, Centro, BH – MG, 30170-131</div>
             </div>
             <div className='text-color-clicado font-bold text-lg mt-4'>Horário de atendimento</div>
-            <div className="flex pb-2 bg-color-black   border-b border-color-clicado/70 items-center">
+            <div className="flex pb-2 bg-color-black2   border-b border-color-clicado/70 items-center">
               <BiSolidTimeFive className='text-3xl text-color-clicado'></BiSolidTimeFive>
               <div className='text-color-white ml-2 text-sm'>Atendimento de Segunda à Sexta-feira das 9h às 18h </div>
             </div>
             <div className='text-color-clicado font-bold text-lg mt-4'>Envie um email para nossa equipe</div>
-            <div className="flex pb-2  bg-color-black   border-b border-color-clicado/70 items-center">
+            <div className="flex pb-2  bg-color-black2   border-b border-color-clicado/70 items-center">
               <MdEmail className='text-3xl text-color-clicado'></MdEmail>
               <div className='text-color-white ml-2 text-sm'>severo@oliveirasevero.adv.br</div>
             </div>

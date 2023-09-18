@@ -6,6 +6,8 @@ import Escritorio_inst from "../components/escritorio_inst"
 import NossaCultura_inst from "../components/nossaCultura_inst"
 import Cards_inst from "../components/cards_inst"
 import Footer from "../components/footer"
+import Localizacao_inst from "../components/localizacao_inst"
+import Reuniao from "../components/reuniao"
 
 
 export default function Institucional() {
@@ -17,6 +19,8 @@ export default function Institucional() {
       <Escritorio_inst></Escritorio_inst>
       <NossaCultura_inst></NossaCultura_inst>
       <Cards_inst></Cards_inst>
+      <Localizacao_inst></Localizacao_inst>
+      <Reuniao></Reuniao>
       <Footer></Footer>
     </main>
   )

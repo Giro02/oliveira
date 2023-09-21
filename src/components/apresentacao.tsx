@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from "@material-tailwind/react";
+import { Observer } from "./fadeEffect" 
 
 
 export default function Apresentacao() {
@@ -23,8 +24,8 @@ export default function Apresentacao() {
             <Button className="shadow-md w-[250px] h-[50px] mt-8 rounded-full 
                     bg-color-clicado/90
                     text-color-black2 text-sm transition-all ease-in
-                    hover:text-color-clicado
-                    hover:bg-color-black 
+                    hover:text-color-white
+                    hover:bg-color-clicado 
                     
                     
                     shadow-color-black2/50

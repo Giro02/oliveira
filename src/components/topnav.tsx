@@ -10,7 +10,7 @@ import { Link } from 'gatsby';
 
 export default function topnav() {
   return (
-    <div className="bg-color-black2 min-h-[40px] font-serif font-thin lg:flex-row text-color-white flex justify-evenly items-center flex-col">
+    <div className=" bg-color-black2 min-h-[40px] font-serif font-thin lg:flex-row text-color-white flex justify-evenly items-center flex-col">
         <div className='flex-row flex items-center gap-3 text-sm'>
             <FaScaleUnbalanced className='text-color-clicado  h-5 w-5'></FaScaleUnbalanced>
             <h2 className='text-sm'>R. São Paulo 1071, sala 515, Centro, BH – MG, 30170-131</h2>

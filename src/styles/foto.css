@@ -22,6 +22,15 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 960px;
+    width: 825px;
+    height: 500px;
+}
+.foto_civil{
+    float: left;
+    background-image: url('../../public/static/civil.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 825px;
     height: 500px;
 }

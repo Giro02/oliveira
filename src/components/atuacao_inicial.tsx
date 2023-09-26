@@ -8,6 +8,7 @@ import { GiReceiveMoney } from "react-icons/Gi"
 import { BsFillArrowRightCircleFill } from "react-icons/bs"
 
 
+
 export default function atuacao_inicial() {
 
   return (

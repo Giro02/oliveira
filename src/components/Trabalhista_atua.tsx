@@ -9,9 +9,9 @@ export default function Trabalhista_atua() {
         <div className='foto_trabalhista hidden lg:block bg-color-white'></div>
         <div className='bg-color-white py-12 px-6 md:px-24'>
             <h1 className='text-color-clicado font-bold text-4xl'>O que é direito Trabalhista?</h1>
-            <h1 className='text-color-black max-w-[800px] mt-8'>O direito civil é um ramo fundamental do direito que trata das relações jurídicas entre indivíduos e entidades privadas. Abrange questões como responsabilidade civil, contratos, direito de família, sucessões, propriedade, obrigações financeiras e proteção dos direitos civis.  </h1>
-            <h1 className='text-color-black max-w-[800px] mt-8'>Engloba desde litígios (Conflios de interesses) por danos pessoais até a resolução de disputas contratuais e questões de propriedade, também inclui questões de discriminação, liberdade de expressão e acesso à justiça.</h1>
-            <h1 className='text-color-black max-w-[800px] mt-8'>É uma área essencial do sistema jurídico que visa proteger os direitos e interesses dos indivíduos e empresas em uma variedade de situações legais. É imprencindível ter uma equipe de advogados lhe orientando em todas as etapas</h1>
+            <h1 className='text-color-black max-w-[800px] mt-8'>O Direito Trabalhista é uma área do direito que se concentra nas relações laborais entre empregadores e empregados. Sua principal função é proteger os direitos dos trabalhadores e regulamentar as condições de emprego. Isso inclui questões como contratos de trabalho, salários, horas de trabalho, férias, segurança no trabalho e direitos sindicais.</h1>
+            <h1 className='text-color-black max-w-[800px] mt-8'>O objetivo do Direito Trabalhista é garantir que os trabalhadores sejam tratados de maneira justa e que tenham condições de trabalho seguras e adequadas. Além disso, o Direito Trabalhista também estabelece mecanismos para resolver disputas entre empregadores e empregados, garantindo o cumprimento das leis trabalhistas.</h1>
+            <h1 className='text-color-black max-w-[800px] mt-8'>Seja para questões salariais, horas extras não pagas, demissões injustas, assédio no local de trabalho ou qualquer outro problema trabalhista, nossa equipe de advogados está preparada para representá-lo com dedicação e competência.</h1>
         </div>
         <div className='bg-color-white py-12 px-6 md:px-24'>
             <h1 className='text-color-clicado font-bold text-4xl'>Proteção do Consumidor</h1>

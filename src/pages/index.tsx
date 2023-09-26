@@ -11,6 +11,7 @@ import Footer from "../components/footer"
 import Location from "../components/location"
 import Reuniao from "../components/reuniao"
 import Top_reuniao from "../components/top_reuniao"
+import Whats from "../components/whats"
 
 // OBSERVADOR
 // const observer = new IntersectionObserver((entries) =>{
@@ -32,6 +33,7 @@ const IndexPage = () => {
     <main>
       <Topnav></Topnav> 
       <Navbar/>
+      <Whats></Whats>
       <EmblaCarousel></EmblaCarousel>
       <Atua></Atua>
       <Apresentacao></Apresentacao>

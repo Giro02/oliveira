@@ -18,7 +18,7 @@ export default function familiar_atua() {
     administrativo: <Administrativo_atua />
   };
 
-  const handleOptionClick = (option: ComponentType) => {
+   const handleOptionClick = (option: ComponentType) => {
     setSelectedOption(option);
   };
 

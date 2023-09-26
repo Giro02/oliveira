@@ -61,3 +61,12 @@
     width: 825px;
     height: 500px;
 }
+.foto_whats{
+    float: left;
+    background-image: url('../../public/static/whatsapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}

@@ -7,6 +7,7 @@ import OndeEstamos_fale from "../components/ondeEstamos_fale"
 import Reuniao from "../components/reuniao"
 import Location from "../components/location"
 import Top_reuniao_fale from "../components/top_reuniao_fale"
+import Whats from "../components/whats"
 
 
 export default function Fale() {
@@ -14,6 +15,7 @@ export default function Fale() {
     <main>
       <Topnav></Topnav>
       <Navbar/>
+      <Whats></Whats>
       <Titulo_fale></Titulo_fale>
       <OndeEstamos_fale></OndeEstamos_fale>
       <Top_reuniao_fale></Top_reuniao_fale>

@@ -3,11 +3,13 @@ import "../styles/foto.css"
 
 export default function whats() {
   return (
-    <div className='cursor-pointer absolute float-right'>
-        <span className="z-20 absolute  flex">
-            <span className="z-10  foto_whats relative inline-flex rounded-full bg-color-black"></span>
-            <span className="z-20  animate-ping absolute left-[2.6em] h-5 w-5 rounded-full bg-color-clicado"></span>
+    <div className='z-20 bottom-6 right-6 md:right-10  fixed float-right'>
+        <div className="sticky foto_whats cursor-pointer"></div>
+        <span className="absolute left-[3.2em] top-[-6px] flex">
+            <span className=" animate-ping absolute inline-flex h-full w-full rounded-full bg-color-verde opacity-75"></span>
+            <span className=" relative inline-flex rounded-full h-4 w-4 bg-color-verde opacity-90"></span>
         </span>
+        
     </div>
   )
 }

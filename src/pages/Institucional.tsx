@@ -8,6 +8,7 @@ import Cards_inst from "../components/cards_inst"
 import Footer from "../components/footer"
 import Localizacao_inst from "../components/localizacao_inst"
 import Reuniao from "../components/reuniao"
+import Whats from "../components/whats"
 
 
 export default function Institucional() {
@@ -15,6 +16,7 @@ export default function Institucional() {
     <main>
       <Topnav></Topnav>
       <Navbar/>
+      <Whats></Whats>
       <Apresentacao_inst></Apresentacao_inst>
       <Escritorio_inst></Escritorio_inst>
       <NossaCultura_inst></NossaCultura_inst>

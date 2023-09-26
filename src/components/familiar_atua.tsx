@@ -24,11 +24,11 @@ export default function familiar_atua() {
 
   return (
     <div>
-      <div className='bg-color-black font-serif pt-4 flex items-center flex-col justify-center px-6 '>
-        <h1 className='text-color-clicado font-bold text-4xl w-[825px]'>Áreas de atuação</h1>
+      <div className='bg-color-black font-serif pt-2 flex items-center flex-col justify-center px-6 '>
+        <h1 className='text-color-clicado font-bold text-3xl mt-8z lg:w-[825px]'>Áreas de atuação</h1>
       </div>
-      <div className='bg-color-black font-serif text-normal border-color-clicado pt-12 flex items-center justify-center'>
-        <div className='w-[825px] text-color-white flex gap-6 mb-2'>
+      <div className='bg-color-black border-b-4  font-serif text-normal border-color-clicado pt-4 flex items-center justify-center'>
+        <div className='w-[825px] text-color-white flex  mb-2'>
           <button
             onClick={() => handleOptionClick('familiar')}
             className={`${

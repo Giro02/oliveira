@@ -34,3 +34,30 @@
     width: 825px;
     height: 500px;
 }
+.foto_tributario{
+    float: left;
+    background-image: url('../../public/static/tributario.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 825px;
+    height: 500px;
+}
+.foto_trabalhista{
+    float: left;
+    background-image: url('../../public/static/trabalhista.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 825px;
+    height: 500px;
+}
+.foto_adm{
+    float: left;
+    background-image: url('../../public/static/adm.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 825px;
+    height: 500px;
+}

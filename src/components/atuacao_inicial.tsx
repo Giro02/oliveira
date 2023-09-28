@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import '../styles/atua.css'
 import { MdFamilyRestroom } from "react-icons/md"
 import { Button } from "@material-tailwind/react";
@@ -6,6 +7,7 @@ import { MdWork } from "react-icons/md"
 import { FaSackDollar, FaHandHoldingDollar, FaAward } from "react-icons/fa6"
 import { GiReceiveMoney } from "react-icons/Gi"
 import { BsFillArrowRightCircleFill } from "react-icons/bs"
+
 
 
 
@@ -36,13 +38,13 @@ export default function atuacao_inicial() {
                     tamanho w-[150px] h-[50px] mt-8 rounded-full 
                     bg-color-black2
                     text-color-clicado/70 text-sm transition-all ease-in
-                    hover:text-color-clicado
-                    hover:bg-color-black border-2
+                    hover:text-color-white
+                    hover:bg-color-clicado border-2
                     hover:border-color-clicado
                     border-color-clicado/50
                     hover:shadow
                      "
-                     >Saiba mais</Button>  
+                     >Saiba mais</Button>
                 </div> 
                  <div className="brilha flex flex-col text-lg gap-10 items-center justify-center
                  bg-color-blacktrans p-16 rounded-md transition-all ease-in">
@@ -51,9 +53,9 @@ export default function atuacao_inicial() {
 
                     <Button className="child w-[150px] h-[50px] mt-8 rounded-full 
                     bg-color-black2
-                    text-color-clicado/70 text-sm transition-all ease-in
+                    text-color-clicado/70 text-sm 
                     hover:text-color-white
-                    hover:bg-color-clicado border-2
+                    hover:bg-color-clicado border-2 transition-all ease-in
                     border-color-clicado/50 "
                      >Saiba mais</Button>  
                 </div>
@@ -64,9 +66,9 @@ export default function atuacao_inicial() {
 
                     <Button className="child w-[150px] h-[50px] mt-8 rounded-full 
                     bg-color-black2
-                    text-color-clicado/70 text-sm transition-all ease-in
+                    text-color-clicado/70 text-sm 
                     hover:text-color-white
-                    hover:bg-color-clicado border-2
+                    hover:bg-color-clicado border-2 transition-all ease-in
                     border-color-clicado/50 "
                      >Saiba mais</Button>  
                 </div>
@@ -77,25 +79,25 @@ export default function atuacao_inicial() {
 
                     <Button className=" w-[150px] h-[50px] mt-8 rounded-full 
                     bg-color-black2
-                    text-color-clicado/70 text-sm transition-all ease-in
+                    text-color-clicado/70 text-sm
                     hover:text-color-white
-                    hover:bg-color-clicado border-2
+                    hover:bg-color-clicado border-2 transition-all ease-in
                     border-color-clicado/50 "
                      >Saiba mais</Button>  
                 </div> 
                 
                 
             </div> 
-            <Button className="shadow-md w-auto py-4 mt-8 rounded-full  
+            <Link to='/Areas'><Button className="shadow-md w-auto py-4 mt-8 rounded-full  
              flex flex-row items-center justify-center px-6 
              bg-color-clicado/90
-             text-color-black2 text-lg transition-all ease-in
+             text-color-black2 text-lg
              hover:text-color-white
              hover:bg-color-clicado border
              border-color-black2 "
                      >Ver todas as áreas de atuação
                      <BsFillArrowRightCircleFill className="h-8 w-auto ml-5" />
-                     </Button>   
+                     </Button>   </Link>
          </div> 
     </div>
   )

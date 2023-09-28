@@ -12,6 +12,7 @@ import Location from "../components/location"
 import Reuniao from "../components/reuniao"
 import Top_reuniao from "../components/top_reuniao"
 import Whats from "../components/whats"
+import EmailForm from "../components/EmailForm"
 
 // OBSERVADOR
 // const observer = new IntersectionObserver((entries) =>{
@@ -35,12 +36,14 @@ const IndexPage = () => {
       <Navbar/>
       <Whats></Whats>
       <EmblaCarousel></EmblaCarousel>
+      
       <Atua></Atua>
       <Apresentacao></Apresentacao>
       <Top_reuniao></Top_reuniao>
       <Agende></Agende>
       <Reuniao></Reuniao>
       <Location></Location>
+      <EmailForm></EmailForm>
       <Footer></Footer>
     </main>
   )

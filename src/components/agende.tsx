@@ -8,7 +8,11 @@ import {
     Textarea 
   } from "@material-tailwind/react";
   import { FaCircleArrowDown } from "react-icons/fa6"
+  import { useForm, ValidationError } from '@formspree/react';
 
+
+
+  
 export default function agende() {
   return (
     <div className="flex jusitfy-center font-serif">
@@ -51,23 +55,27 @@ export default function agende() {
               <Typography color="gray" className="mt-1 font-normal text-color-clicado/70">
                 Mande-nos um e-mail:
               </Typography>
-              <form className="mt-12  w-80 max-w-screen-lg sm:w-96">
+              <form id='fs-frm' name='form1' className="mt-12 mb-8 w-80 max-w-screen-lg sm:w-96" action='https://formspree.io/f/mjvqpkye' method='POST'>
                 <div className="mb-4 flex flex-col gap-6">
-                  <Input className='w-full px-4 rounded-xl h-10 bg-color-blacktrans/70 border-2 border-color-clicado' placeholder="Nome" />
-                  <Input variant='outlined' className="px-4 w-full rounded-xl h-10 bg-color-blacktrans border-2 border-color-clicado" placeholder="Email" />
-                  <Input variant='outlined' placeholder='Titulo' className="px-4 w-full rounded-xl h-10 bg-color-black border-2 border-color-clicado" color='red'  />
+                  <Input required id="full-name" name='name' className='px-4 rounded-xl h-10 bg-color-blacktrans/70 border-2 border-color-clicado' placeholder="Nome"/>
+                  <Input  id="email-address" name="_replyto" className="px-4 w-full rounded-xl h-10 bg-color-blacktrans border-2 border-color-clicado" placeholder="Email" />
+                  <Input  className="px-4 w-full rounded-xl h-10 bg-color-black border-2 border-color-clicado" placeholder='Titulo'  />
                 </div>
-                <div className="">
-                  <Textarea className='p-4 mt-8 rounded-sm h-32 bg-color-black border-2 border-color-clicado text-color-white' placeholder="Mensagem..." />
+                <div>
+                  <Textarea  name="message" id="message" className='p-4 mt-8 rounded-sm h-32 bg-color-black border-2 border-color-clicado text-color-white' placeholder="Mensagem..." />
                 </div>
-              </form>
-              <Button className="child w-auto h-[50px] mt-8 rounded-full 
+                <div>
+                <Input type='submit' value="Enviar"className="  w-auto h-[50px] mt-8 rounded-full cursor-pointer
                     bg-color-black2
                     text-color-clicado/70 text-sm transition-all ease-in
                     hover:text-color-white
                     hover:bg-color-clicado/80 border-2
-                    border-color-clicado/80"
-                     >Enviar</Button>  
+                    border-color-clicado/80 "
+                     ></Input>
+                </div>
+                
+              </form>
+                
             </Card>
             </div>
               

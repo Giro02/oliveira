@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "gatsby"
 import { Button } from "@material-tailwind/react";
 import { Observer } from "./fadeEffect" 
 
@@ -21,7 +22,7 @@ export default function Apresentacao() {
 
           
 
-            <Button className="shadow-md w-[250px] h-[50px] mt-8 rounded-full 
+            <Link to='/Institucional'><Button className="shadow-md w-[250px] h-[50px] mt-8 rounded-full 
                     bg-color-clicado/90
                     text-color-black2 text-sm transition-all ease-in
                     hover:text-color-white
@@ -30,7 +31,7 @@ export default function Apresentacao() {
                     
                     shadow-color-black2/50
                      "
-                     >Veja mais</Button> 
+                     >Veja mais</Button> </Link>
           </div>
              
         </div>

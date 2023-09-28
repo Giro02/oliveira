@@ -23,7 +23,7 @@ module.exports = {
         black:"#282828",
         white:"rgb(255 255 255)",
         clicado:'#C39F76',
-        verde:"rgb(21 128 61)",
+        verde:"rgb(185 28 28)",
       }
     },
   },

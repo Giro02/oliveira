@@ -29,7 +29,7 @@ export const EmblaCarousel = () => {
             <div className='absolute top-6 left-4 md:top-28 md:left-16 lg:left-32 lg:top-44 xl:top-56 xl:left-48 2xl:top-[310px] 2xl:left-80'>
               <div className='text-base md:text-2xl text-color-clicado'>Atendimento personalizado</div>
               <div className='w-44 md:w-auto text-xs md:text-xl lg:text-2xl  2xl:text-3xl text-color-white font-black'>Advogados especializados em resolução de problemas </div>
-              <Button className="absolute shadow-md w-[260px] md:w-auto py-2 mt-6 rounded-full  
+              <a target='_blank' href="https://wa.me/5554997101763?text=Quero discutir meu caso. Podemos conversar?"><Button className="absolute shadow-md w-[260px] md:w-auto py-2 mt-6 rounded-full  
               flex flex-row items-center px-4 
                       bg-color-clicado/90
                       text-color-black2 md:text-base lg:text-base xl:text-lg transition-all ease-in
@@ -37,7 +37,7 @@ export const EmblaCarousel = () => {
                       hover:bg-color-clicado "
                       >Quero solucionar os meus problemas
                       <BsFillArrowRightCircleFill className="h-4 md:h-6 xl:h-8 w-auto ml-5" />
-                      </Button>
+                      </Button></a>
               
             </div>
             {/* <div>

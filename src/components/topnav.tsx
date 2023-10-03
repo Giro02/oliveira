@@ -17,7 +17,7 @@ export default function topnav() {
         </div>
         <div className='flex-row flex items-center gap-3 text-color-clicado text-sm'>
             <HiMiniDevicePhoneMobile className='h-5 w-5'></HiMiniDevicePhoneMobile>
-            <h2>+55 54 99710-1723</h2>
+            <h2>(31) 32748997</h2>
         </div> 
         <div className='text-color-clicado flex justify-center items-center  min-h-[40px]'>
             <div>

@@ -7,7 +7,7 @@ export default function familiarIntro_atua() {
         <div className='bg-color-white pt-12 pb-4 '>
             <h1 className='text-color-clicado font-bold text-4xl'>Direito familiar</h1>
         </div>
-        <div className='foto_familia hidden lg:block bg-color-white'></div>
+        <div className='foto_familia filter grayscale hidden lg:block bg-color-white'></div>
         
         <div className='bg-color-white py-12 px-6 md:px-24'>
             <h1 className='text-color-clicado font-bold text-4xl'>O que é direito familiar?</h1>

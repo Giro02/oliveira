@@ -38,7 +38,7 @@ export default function ondeEstamos_fale() {
           </div>
           
         </div>
-        {/* <div className='border-2 shadow border-color-clicado mt-16 lg:mt-0 bg-color-white p-6 md:p-8 rounded-xl w-90'>
+        <div className='border-2 shadow border-color-clicado mt-16 lg:mt-0 bg-color-white p-6 md:p-8 rounded-xl w-90'>
               <Card color="transparent" shadow={false}>
                 <div className="flex flex-row w-full">
                 <Typography className='text-color-clicado font-bold text-2xl '>
@@ -68,7 +68,7 @@ export default function ondeEstamos_fale() {
                     border-color-clicado/80"
                      >Enviar</Button>  
             </Card>
-            </div> */}
+            </div>
     </div>
   )
 }

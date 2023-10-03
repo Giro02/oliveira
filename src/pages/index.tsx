@@ -43,7 +43,6 @@ const IndexPage = () => {
       <Agende></Agende>
       <Reuniao></Reuniao>
       <Location></Location>
-      <EmailForm></EmailForm>
       <Footer></Footer>
     </main>
   )

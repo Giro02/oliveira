@@ -170,7 +170,7 @@ export default function footer() {
             <div className='text-color-clicado font-bold text-lg mt-4'>Horário de atendimento</div>
             <div className="flex pb-2 bg-color-black2   border-b border-color-clicado/70 items-center">
               <BiSolidTimeFive className='text-3xl text-color-clicado'></BiSolidTimeFive>
-              <div className='text-color-white ml-2 text-sm'>Atendimento de Segunda à Sexta-feira das 9h às 18h </div>
+              <div className='text-color-white ml-2 text-sm'>Atendimento de Segunda à Sexta-feira das 8h às 17h </div>
             </div>
             <div className='text-color-clicado font-bold text-lg mt-4'>Envie um email para nossa equipe</div>
             <div className="flex pb-2  bg-color-black2   border-b border-color-clicado/70 items-center">

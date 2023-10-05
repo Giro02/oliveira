@@ -27,7 +27,7 @@ export const EmblaCarousel = () => {
             <div className='ml-96'>
               <div className=' text-base font-extrabold md:text-3xl text-color-clicado'>Atendimento personalizado</div>
                 <div className='w-20 mt-6 md:w-auto text-xs md:text-xl lg:text-2xl  2xl:text-3xl text-color-white font-black'>Advogados especializados em resolução de problemas</div>
-                <a target='_blank' className='w-400px' href="https://wa.me/5554997101763?text=Quero discutir meu caso. Podemos conversar?"><Button className=" shadow-md py-2 mt-4 rounded-full  
+                <a target='_blank' href="https://wa.me/5554997101763?text=Quero discutir meu caso. Podemos conversar?"><Button className=" shadow-md py-2 mt-4 rounded-full  
                 flex flex-row items-center px-4 
                         bg-color-clicado/90
                         text-color-black2 md:text-base lg:text-base xl:text-lg transition-all ease-in

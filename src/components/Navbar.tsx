@@ -14,9 +14,9 @@ const Navbar = () => {
   return (
     <div>
       <nav className='bg-color-black text-color-white font-serif text-base'>
-        <div className=" items-center flex justify-around min-h-[80px]">
+        <div className=" items-center flex justify-evenly min-h-[80px]">
           <Link className='' to="/">
-              <img src={'../static/medmarrom.png'} alt='logoo'></img>
+              <img src={'../static/Logo5.png'} alt='logoo'></img>
           </Link>
           <div className="md:hidden">
             <button onClick={toggleNavbar} className="mt-2 text-white focus:outline-none bg-color-black">

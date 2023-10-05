@@ -48,3 +48,8 @@
     box-shadow: 0px 1px 15px 6px rgb(0 0 0 / 30%);
 }
 
+label span{
+    content: "*";
+    color: red; 
+    display: none;
+  }

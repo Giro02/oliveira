@@ -31,7 +31,7 @@ export default function topnav() {
             </div>
             
             <div>
-                <a target ="_blank" href='https://pt-br.facebook.com/'>
+                <a target ="_blank" href='https://br.linkedin.com/company/oliveira-severo-sociedade-de-advogados'>
                     <IconButton className="shadow-none hover:text-color-white hover:bg-color-clicado transition-all ease-in flex justify-center items-center
                     min-h-[40px] rounded-none w-11 border-r border-[#686767] hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10">
                         <BiLogoLinkedin size={'18px'}></BiLogoLinkedin>
@@ -40,7 +40,7 @@ export default function topnav() {
             </div>
             
             <div>
-                <a target ="_blank" href='https://pt-br.facebook.com/'>
+                <a target ="_blank" href=''>
                     <IconButton className="shadow-none hover:text-color-white hover:bg-color-clicado transition-all ease-in flex justify-center items-center
                     min-h-[40px] rounded-none w-11 border-r border-[#686767] hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10">
                         <BiLogoSkype size={'18px'}></BiLogoSkype>
@@ -49,7 +49,7 @@ export default function topnav() {
             </div>
 
             <div>
-                <a target ="_blank" href='https://pt-br.facebook.com/'>
+                <a target ="_blank" href=''>
                     <IconButton className="shadow-none hover:text-color-white hover:bg-color-clicado transition-all ease-in flex justify-center items-center
                     min-h-[40px] rounded-none w-11 border-r border-[#686767] hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10">
                         <TfiYoutube size={'18px'}></TfiYoutube>

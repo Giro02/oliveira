@@ -70,3 +70,24 @@
     width: 60px;
     height: 60px;
 }
+.foto_slide1{
+    background-image: url('../../public/static/slide1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.foto_slide2{
+    background-image: url('../../public/static/slide2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.foto_logogrande{
+    background-image: url('../../public/static/Logo4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 343px;
+    height: 60px;
+    border: 0px;
+}

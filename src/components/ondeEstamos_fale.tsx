@@ -12,6 +12,7 @@ import {
     Typography,
     Textarea 
   } from "@material-tailwind/react";
+import "../styles/atua.css"
 
 export default function ondeEstamos_fale() {
   return (
@@ -28,7 +29,7 @@ export default function ondeEstamos_fale() {
             <div className='text-color-clicado font-bold text-lg mt-4'>Horário de atendimento</div>
             <div className="flex pb-2    border-b border-color-clicado/70 items-center">
               <BiSolidTimeFive className='text-3xl text-color-clicado'></BiSolidTimeFive>
-              <div className='text-color-black ml-2 text-lg'>Atendimento de Segunda à Sexta-feira das 9h às 18h </div>
+              <div className='text-color-black ml-2 text-lg'>Atendimento de Segunda à Sexta-feira das 8h às 17h </div>
             </div>
             <div className='text-color-clicado font-bold text-lg mt-4'>Envie um email para nossa equipe</div>
             <div className="flex pb-2    border-b border-color-clicado/70 items-center">
@@ -38,7 +39,7 @@ export default function ondeEstamos_fale() {
           </div>
           
         </div>
-        <div className='border-2 shadow border-color-clicado mt-16 lg:mt-0 bg-color-white p-6 md:p-8 rounded-xl w-90'>
+        <div className='shadow p-6 md:p-8 bg-color-white rounded-xl w-90'>
               <Card color="transparent" shadow={false}>
                 <div className="flex flex-row w-full">
                 <Typography className='text-color-clicado font-bold text-2xl '>
@@ -47,26 +48,30 @@ export default function ondeEstamos_fale() {
                 <FaCircleArrowDown className='text-color-clicado/90 text-4xl ml-6 '></FaCircleArrowDown>
                 </div>
                 
-              <Typography color="gray" className="mt-1 font-normal text-color-clicado/90">
+              <Typography color="gray" className="mt-1 font-normal text-color-clicado/70">
                 Mande-nos um e-mail:
               </Typography>
-              <form className="mt-12  w-80 max-w-screen-lg sm:w-96">
+              <form id='fs-frm' name='form1' className="mt-12 mb-8 w-80 max-w-screen-lg sm:w-96" action='https://formspree.io/f/mjvqpkye' method='POST'>
                 <div className="mb-4 flex flex-col gap-6">
-                  <Input className='w-full px-4 rounded-xl h-10 border-2 bg-color-white border-color-clicado' placeholder="Nome" />
-                  <Input variant='outlined' className="px-4 w-full bg-color-white rounded-xl h-10  border-2 border-color-clicado" placeholder="Email" />
-                  <Input variant='outlined' placeholder='Titulo' className="px-4 w-full bg-color-white rounded-xl h-10  border-2 border-color-clicado" color='red'  />
+                  <Input required id="full-name" name='name' className='required px-4 rounded-xl h-10 bg-color-white border-2 border-color-clicado' placeholder="Nome"/>
+                  <Input required id="email-address" name="_replyto" className="px-4 w-full rounded-xl h-10 bg-color-white border-2 border-color-clicado" placeholder="Email" />
+                  <Input  className="px-4 w-full rounded-xl h-10 bg-color-white border-2 border-color-clicado" placeholder='Titulo'  />
                 </div>
-                <div className="">
-                  <Textarea className='p-4 mt-8 rounded-sm h-32 border-2 bg-color-white border-color-clicado text-color-white' placeholder="Mensagem..." />
+                <div>
+                  <Textarea required name="message" id="message" className='p-4 mt-8 rounded-sm h-32 bg-color-white border-2 border-color-clicado text-color-white' placeholder="Mensagem..." />
                 </div>
-              </form>
-              <Button className="child w-auto h-[50px] mt-8 rounded-full 
+                <div>
+                <Input type='submit' value="Enviar"className="  w-auto h-[50px] mt-8 rounded-full cursor-pointer
                     bg-color-clicado
-                    text-color-black text-sm transition-all ease-in
+                    text-color-white text-sm transition-all ease-in
                     hover:text-color-white
-                    hover:bg-color-clicado/80 border-2
-                    border-color-clicado/80"
-                     >Enviar</Button>  
+                    hover:bg-color-black border-2
+                    border-color-clicado/80 "
+                     ></Input>
+                </div>
+                
+              </form>
+                
             </Card>
             </div>
     </div>

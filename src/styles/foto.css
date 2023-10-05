@@ -82,6 +82,12 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.foto_slide3{
+    background-image: url('../../public/static/slide3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .foto_logogrande{
     background-image: url('../../public/static/Logo4.png');
     background-size: cover;

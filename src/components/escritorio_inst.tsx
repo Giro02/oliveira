@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/foto.css"
+import escritorio from '../../assets/escritorio.png'
 
 
 export default function escritorio_inst() {
@@ -11,9 +11,9 @@ export default function escritorio_inst() {
             <h1 className='text-color-black2 max-w-[800px] mt-8'>Temos desempenhado um papel fundamental na resolução de questões complexas relacionadas a transações imobiliárias, contratos e litígios, garantindo segurança e proteção aos interesses de nossos clientes. Além disso, nossa expertise na Constituição de Holdings Familiares, Direito de Família e Direito Sucessório tem proporcionado soluções personalizadas e estratégicas para as necessidades específicas de nossos clientes, consolidando nossa reputação de confiança e competência.</h1>
             <h1 className='text-color-black2 max-w-[800px] mt-8'>Nosso compromisso inabalável com a qualidade e o conhecimento jurídico nos mantém na vanguarda do campo jurídico, prontos para continuar oferecendo serviços jurídicos de alto nível e ajudando nossos clientes a alcançar seus objetivos de forma segura e eficaz.</h1>
         </div>
-        <div className='foto hidden lg:block'></div>
-        {/* <div>../static/escritorio.png </div> */}
-        
+        <div>
+          <img className='bg-cover bg-no-repeat hidden xl:block'  src={escritorio}></img>
+        </div>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Link } from 'gatsby';
 import { GiHamburgerMenu } from 'react-icons/Gi';
 import { HiXMark } from 'react-icons/hi2';
+import logo from "../../assets/Logo5.png"
 
 
 const Navbar = () => {
@@ -15,8 +16,8 @@ const Navbar = () => {
     <div>
       <nav className='bg-color-black text-color-white font-serif text-base'>
         <div className=" items-center flex justify-evenly min-h-[80px]">
-          <Link className='' to="/">
-              <img src={'../static/Logo5.png'} alt='logoo'></img>
+          <Link to="/">
+              <img src={logo} alt='logoo'></img>
           </Link>
           <div className="md:hidden">
             <button onClick={toggleNavbar} className="mt-2 text-white focus:outline-none bg-color-black">
@@ -27,8 +28,7 @@ const Navbar = () => {
               )}
             </button>
           </div>
-          {/* <div className={`md:flex ${isOpen ? 'block' : 'hidden'}`}> */}
-            <ul className="md:flex mt-30 md:mt-0 gap-8 font-lg hidden">
+            <ul className="md:flex mt-30 md:mt-0 gap-8 hidden font-thin text-sm translate-y-1/2">
               <li>
                 <Link
                   to="/"

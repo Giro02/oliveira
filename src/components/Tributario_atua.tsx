@@ -6,7 +6,9 @@ export default function Tributario_atua() {
         <div className='bg-color-white pt-12 pb-4 '>
             <h1 className='text-color-clicado font-bold text-4xl'>Direito Tributário</h1>
         </div>
-        <div className='foto_tributario filter grayscale hidden lg:block bg-color-white'></div>
+        <div className='filter grayscale hidden lg:block bg-color-white'>
+            <img className='w-fyll' src=''></img>
+        </div>
         <div className='bg-color-white py-12 px-6 md:px-24'>
             <h1 className='text-color-clicado font-bold text-4xl'>O que é direito Tributário?</h1>
             <h1 className='text-color-black max-w-[800px] mt-8'>O Direito Tributário  engloba todas as leis, normas e regulamentos relacionados à instituição, arrecadação e fiscalização dos tributos, que são os impostos, taxas, contribuições de melhoria e contribuições sociais que o Estado cobra dos cidadãos e das empresas para financiar suas atividades e serviços públicos.</h1>

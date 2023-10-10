@@ -1,4 +1,4 @@
-.foto{
+/* .foto{
     float: right;
     background-image: url('../../assets/escritorio.jpg');
     background-size: cover;
@@ -8,7 +8,6 @@
     height: 500px;
 }
 .foto2{
-    float: left;
     background-image: url('../../assets/escritorio.jpg');
     background-size: cover;
     background-position: center;
@@ -17,8 +16,7 @@
     height: 500px;
 }
 .foto_familia{
-    float: left;
-    background-image: url('../../assets/escritorio.jpg');
+    background-image: url('../../assets/familia.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,8 +24,7 @@
     height: 500px;
 }
 .foto_civil{
-    float: left;
-    background-image: url('../../assets/escritorio.jpg');
+    background-image: url('../../assets/civil.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,8 +32,7 @@
     height: 500px;
 }
 .foto_tributario{
-    float: left;
-    background-image: url('../../assets/escritorio.jpg');
+    background-image: url('../../assets/tributario.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,8 +40,7 @@
     height: 500px;
 }
 .foto_trabalhista{
-    float: left;
-    background-image: url('../../assets/escritorio.jpg');
+    background-image: url('../../assets/trabalhista.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -53,8 +48,7 @@
     height: 500px;
 }
 .foto_adm{
-    float: left;
-    background-image: url('../../assets/escritorio.jpg');
+    background-image: url('../../assets/escritorio.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,38 +56,20 @@
     height: 500px;
 }
 .foto_whats{
-    float: left;
-    background-image: url('../../assets/escritorio.jpg');
+    background-image: url('../../assets/whatsapp.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 60px;
     height: 60px;
 }
-.foto_slide1{
-    background-image: url('../../assets/escritorio.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.foto_slide2{
-    background-image: url('../../assets/escritorio.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.foto_slide3{
-    background-image: url('../../assets/escritorio.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
 .foto_logogrande{
-    background-image: url('../../assets/escritorio.jpg');
+    background-image: url('../../assets/Logo6.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 343px;
     height: 60px;
     border: 0px;
-}
+} */

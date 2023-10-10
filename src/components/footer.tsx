@@ -6,6 +6,9 @@ import { BiLogoLinkedin, BiLogoSkype, BiSolidTimeFive} from "react-icons/bi"
 import { TfiYoutube } from "react-icons/tfi"
 import { FaLocationDot } from "react-icons/fa6"
 import { MdEmail } from "react-icons/md"
+import logo from "../../assets/Logo5.png"
+import BotaoSocial from './botoesSociais';
+
 
 
 export default function footer() {
@@ -14,46 +17,29 @@ export default function footer() {
       <div className='flex flex-col lg:flex-row justify-evenly p-6 md:p-12 border border-color-clicado'>
         
         <div className='flex flex-col gap-6 justify-evenly'>
-          <img src='../static/medmarrom.png'></img>
+          <img className='max-w-[286px]' src={logo}></img>
           <h1 className='max-w-xs text-color-white text-sm'>Nos siga nas redes sociais para acompanhar em tempo real tudo sobre o mundo do direito</h1>
           <div className='text-color-clicado flex items-center gap md:gap-4 min-h-[40px]'>
-            <div>
-                <a target ="_blank" href='https://pt-br.facebook.com/'>
-                    <IconButton className="hover:text-color-white hover:bg-color-clicado transition-all ease-in
-                    min-h-[40px] w-11 border border-color-clicado flex justify-center items-center 
-                    hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10">
-                        <GrFacebookOption size={'18px'}></GrFacebookOption>
-                    </IconButton>
-                </a>
-            </div>
-            
-            <div>
-                <a target ="_blank" href='https://pt-br.facebook.com/'>
-                    <IconButton className="hover:text-color-white hover:bg-color-clicado transition-all ease-in flex justify-center items-center
-                    min-h-[40px] w-11 border border-color-clicado hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10">
-                        <BiLogoLinkedin size={'18px'}></BiLogoLinkedin>
-                    </IconButton>
-                </a>
-            </div>
-            
-            <div>
-                <a target ="_blank" href='https://pt-br.facebook.com/'>
-                    <IconButton className="hover:text-color-white hover:bg-color-clicado transition-all ease-in flex justify-center items-center
-                    min-h-[40px] w-11 border border-color-clicado hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10">
-                        <BiLogoSkype size={'18px'}></BiLogoSkype>
-                    </IconButton>
-                </a>
-            </div>
-
-            <div>
-                <a target ="_blank" href='https://pt-br.facebook.com/'>
-                    <IconButton className="hover:text-color-white hover:bg-color-clicado transition-all ease-in flex justify-center items-center
-                    min-h-[40px] w-11 border border-color-clicado hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10">
-                        <TfiYoutube size={'18px'}></TfiYoutube>
-                    </IconButton>
-                </a>
-            </div>
-            
+            <Link target='_blank' to='https://pt-br.facebook.com/'>
+              <BotaoSocial {...BotaoSocial.variants.footer}>
+                <GrFacebookOption size={'18px'}></GrFacebookOption>
+              </BotaoSocial>
+            </Link>
+            <Link target='_blank' to='https://pt-br.facebook.com/'>
+              <BotaoSocial>
+                <BiLogoLinkedin size={'18px'}></BiLogoLinkedin>
+              </BotaoSocial>
+            </Link>
+            <Link target='_blank' to='https://pt-br.facebook.com/'>
+              <BotaoSocial>
+                <BiLogoSkype size={'18px'}></BiLogoSkype>
+              </BotaoSocial>
+            </Link>
+            <Link target='_blank' to='https://pt-br.facebook.com/'>
+              <BotaoSocial>
+                <TfiYoutube size={'18px'}></TfiYoutube>
+              </BotaoSocial>
+            </Link>       
         </div>
         
       </div>

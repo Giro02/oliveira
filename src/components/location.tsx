@@ -1,8 +1,9 @@
 import React from 'react'
+import local from "../../assets/location.png"
 
 export default function location() {
   return (
-    <div className='h-[500px] w-auto' style={{ backgroundImage: `url('../static/mapa.png')` }}></div>
+    <div className='hidden md:block aspect-3.84/1 w-full h-full bg-cover bg-center' style={{ backgroundImage: `url(${local})` }}></div>
 
   )
 }

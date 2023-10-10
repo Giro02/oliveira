@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link } from "gatsby"
 import { Button } from "@material-tailwind/react";
-import { Observer } from "./fadeEffect" 
+import mao from '../../assets/mao800.png'
+
 
 
 export default function Apresentacao() {
   return (
     <div className='flex flex-col bg-color-white items-center gap-28 xl:flex-row font-serif'>
         <div className='justify float-left xl:block hidden'>
-            <img className='bg-cover bg-no-repeat '  src='../static/mao800.png'></img>
+            <img className='bg-cover bg-no-repeat '  src={mao}></img>
         </div>
 
         <div className='flex flex-col max-w-lg py-16 xl:rounded-md px-8'>

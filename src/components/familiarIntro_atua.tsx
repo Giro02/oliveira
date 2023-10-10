@@ -1,13 +1,17 @@
 import React from 'react'
+import imagem from '../../assets/familia.png'
 
 export default function familiarIntro_atua() {
+    
   return (
     
     <div className='flex items-center font-serif flex-col bg-color-white'>
         <div className='bg-color-white pt-12 pb-4 '>
             <h1 className='text-color-clicado font-bold text-4xl'>Direito familiar</h1>
         </div>
-        <div className='foto_familia filter grayscale hidden lg:block bg-color-white'></div>
+        <div className='filter grayscale hidden lg:block bg-color-white'>
+            <img className='w-full' src={imagem}></img>
+        </div>
         
         <div className='bg-color-white py-12 px-6 md:px-24'>
             <h1 className='text-color-clicado font-bold text-4xl'>O que é direito familiar?</h1>
@@ -45,9 +49,6 @@ export default function familiarIntro_atua() {
             <h1 className='text-color-black max-w-[800px] mt-8'>O processo de herança geralmente envolve etapas como a abertura de um inventário para listar todos os bens e ativos do falecido, o pagamento de dívidas e impostos pendentes, a identificação de herdeiros legais, a distribuição dos ativos de acordo com a vontade do falecido ou as leis de sucessão, e, em alguns casos, a resolução de disputas legais relacionadas à herança.</h1>
             <h1 className='text-color-black max-w-[800px] mt-8'>Independentemente da complexidade de sua situação, nossa equipe está preparada para representá-lo com dedicação e profissionalismo, assegurando que seus direitos e interesses sejam protegidos em todos os momentos. Entre em contato conosco hoje para começarmos a ajudá-lo a administrar sua herança de maneira eficaz e tranquila.</h1>
         </div>
-        
-        {/* <div>../static/escritorio.png </div> */}
-        
     </div>
   )
 }

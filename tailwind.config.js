@@ -6,9 +6,10 @@ module.exports = {
   ],
   theme: {
     extend:{
-      backgroundImage:{
-        fundo1:"url('/public/src/static/6045255.jpg')"
-      }
+      aspectRatio: {
+        '2.4/1': '2.4 / 1',
+        '3.84/1':'3.84 / 1'
+      },
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],

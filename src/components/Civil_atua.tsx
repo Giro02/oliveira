@@ -1,4 +1,5 @@
 import React from 'react'
+import imagem from '../../assets/civil.png'
 
 export default function Civil_atua() {
   return (
@@ -6,7 +7,9 @@ export default function Civil_atua() {
         <div className='bg-color-white pt-12 pb-4 '>
             <h1 className='text-color-clicado font-bold text-4xl'>Direito Civil</h1>
         </div>
-        <div className='foto_civil hidden lg:block bg-color-white'></div>
+        <div className='hidden lg:block bg-color-white'>
+            <img className='w-full' src={imagem}></img>
+        </div>
         <div className='bg-color-white py-12 px-6 md:px-24'>
             <h1 className='text-color-clicado font-bold text-4xl'>O que é direito Civil?</h1>
             <h1 className='text-color-black max-w-[800px] mt-8'>O direito civil é um ramo fundamental do direito que trata das relações jurídicas entre indivíduos e entidades privadas. Abrange questões como responsabilidade civil, contratos, direito de família, sucessões, propriedade, obrigações financeiras e proteção dos direitos civis.  </h1>

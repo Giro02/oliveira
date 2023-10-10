@@ -23,7 +23,7 @@ export default function topnav() {
             <div>
                 <a target ="_blank" href='https://pt-br.facebook.com/'>
                     <IconButton className=" shadow-none hover:text-color-white hover:bg-color-clicado transition-all ease-in
-                    min-h-[40px] w-11 border-r rounded-none border-[#686767] flex justify-center items-center 
+                    min-h-[40px] w-11 border-r rounded-none border-[#686767] text-center 
                     hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10">
                         <GrFacebookOption size={'18px'}></GrFacebookOption>
                     </IconButton>

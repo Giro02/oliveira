@@ -13,8 +13,9 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
-      open:['Open Sans', 'sans-serif']
+      // serif: ['Merriweather', 'serif'],
+      open:['Open Sans', 'sans-serif'],
+      serif:['Gupter', 'serif'],
     },
     
     colors:{

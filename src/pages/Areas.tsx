@@ -6,6 +6,7 @@ import FamiliarIntro_atua from "../components/familiarIntro_atua"
 import Footer from "../components/footer"
 import Civil_atua from "../components/Civil_atua"
 import Whats from "../components/whats"
+import AreasMenu from '../components/AreasMenu'
 
 export default function Areas() {
   return (
@@ -13,7 +14,7 @@ export default function Areas() {
       <Topnav></Topnav>
       <Navbar/>
       <Whats></Whats>
-      <Familiar_atua></Familiar_atua>
+      <AreasMenu></AreasMenu>
       <Footer></Footer>
     </main>
   )

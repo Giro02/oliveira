@@ -34,7 +34,7 @@ export default function atuacao_inicial() {
                     <MdFamilyRestroom className= 'child2 text-color-clicado/90 ' size={80}></MdFamilyRestroom>
                     <h2 className='text-color-white/80 child3 text-lg'>Holding Familiar</h2>
 
-                    <Button className="
+                    <Link to='Areas/familiar'><Button className="
                     tamanho w-[150px] h-[50px] mt-8 rounded-full 
                     bg-color-black2
                     text-color-clicado/70 text-sm transition-all ease-in
@@ -44,51 +44,51 @@ export default function atuacao_inicial() {
                     border-color-clicado/50
                     hover:shadow
                      "
-                     >Saiba mais</Button>
+                     >Saiba mais</Button></Link>
                 </div> 
                  <div className="brilha flex flex-col text-lg gap-10 items-center justify-center
                  bg-color-blacktrans p-16 rounded-md transition-all ease-in">
                     <MdWork className= 'child2 text-color-clicado/90 ' size={80}></MdWork>
                     <h2 className='text-color-white/80 child3 text-lg'>Direito trabalhista</h2>
 
-                    <Button className="child w-[150px] h-[50px] mt-8 rounded-full 
+                    <Link to='Areas/trabalhista'><Button className="child w-[150px] h-[50px] mt-8 rounded-full 
                     bg-color-black2
                     text-color-clicado/70 text-sm 
                     hover:text-color-white
                     hover:bg-color-clicado border-2 transition-all ease-in
                     border-color-clicado/50 "
-                     >Saiba mais</Button>  
+                     >Saiba mais</Button> </Link> 
                 </div>
                 <div className="brilha flex flex-col text-lg gap-10 items-center justify-center
                  bg-color-blacktrans p-16 rounded-md transition-all ease-in">
                     <GiReceiveMoney className= 'child2 text-color-clicado/90 ' size={80}></GiReceiveMoney>
                     <h2 className='text-color-white/80 child3 text-lg'>Direito tributário</h2>
 
-                    <Button className="child w-[150px] h-[50px] mt-8 rounded-full 
+                    <Link to='Areas/tributario'><Button className="child w-[150px] h-[50px] mt-8 rounded-full 
                     bg-color-black2
                     text-color-clicado/70 text-sm 
                     hover:text-color-white
                     hover:bg-color-clicado border-2 transition-all ease-in
                     border-color-clicado/50 "
-                     >Saiba mais</Button>  
+                     >Saiba mais</Button></Link>  
                 </div>
                 <div className="brilha flex flex-col text-lg gap-10 items-center justify-center
                  bg-color-blacktrans p-16 rounded-md transition-all ease-in">
                     <FaAward className= 'child2 text-color-clicado/90 ' size={80}></FaAward>
                     <h2 className='text-color-white/80 child3 text-lg'>Administrativo</h2>
 
-                    <Button className=" w-[150px] h-[50px] mt-8 rounded-full 
+                    <Link to='Areas/administrativo'><Button className=" w-[150px] h-[50px] mt-8 rounded-full 
                     bg-color-black2
                     text-color-clicado/70 text-sm
                     hover:text-color-white
                     hover:bg-color-clicado border-2 transition-all ease-in
                     border-color-clicado/50 "
-                     >Saiba mais</Button>  
+                     >Saiba mais</Button> </Link> 
                 </div> 
                 
                 
             </div> 
-            <Link to='/Areas'><Button className="shadow-md w-auto py-4 mt-8 rounded-full  
+            <Link to='/Areas/familiar'><Button className="shadow-md w-auto py-4 mt-8 rounded-full  
              flex flex-row items-center justify-center px-6 
              bg-color-clicado/90
              text-color-black2 text-lg

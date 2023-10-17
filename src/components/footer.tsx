@@ -26,17 +26,17 @@ export default function footer() {
               </BotaoSocial>
             </Link>
             <Link target='_blank' to='https://pt-br.facebook.com/'>
-              <BotaoSocial>
+              <BotaoSocial {...BotaoSocial.variants.footer}>
                 <BiLogoLinkedin size={'18px'}></BiLogoLinkedin>
               </BotaoSocial>
             </Link>
             <Link target='_blank' to='https://pt-br.facebook.com/'>
-              <BotaoSocial>
+              <BotaoSocial {...BotaoSocial.variants.footer}>
                 <BiLogoSkype size={'18px'}></BiLogoSkype>
               </BotaoSocial>
             </Link>
             <Link target='_blank' to='https://pt-br.facebook.com/'>
-              <BotaoSocial>
+              <BotaoSocial {...BotaoSocial.variants.footer}>
                 <TfiYoutube size={'18px'}></TfiYoutube>
               </BotaoSocial>
             </Link>       
@@ -101,7 +101,7 @@ export default function footer() {
             <ul className="md:flex mt-30 md:mt-0 flex flex-col gap-4 text-sm ">
                   <li>
                     <Link
-                      to="/"
+                      to="/Areas/civil"
                       activeClassName="text-color-clicado"
                       className="hover:text-color-clicado text-color-white ease-in transition-all"
                     >
@@ -110,7 +110,7 @@ export default function footer() {
                   </li>
                   <li>
                     <Link
-                      to="/Institucional"
+                      to="/Areas/trabalhista"
                       activeClassName="text-color-clicado"
                       className="hover:text-color-clicado text-color-white  ease-in transition-all"
                     >
@@ -119,7 +119,7 @@ export default function footer() {
                   </li>
                   <li>
                     <Link
-                      to="/Areas"
+                      to="/Areas/familiar"
                       activeClassName="text-color-clicado"
                       className="hover:text-color-clicado text-color-white  ease-in transition-all"
                     >
@@ -128,7 +128,7 @@ export default function footer() {
                   </li>
                   <li>
                     <Link
-                      to="/Artigos"
+                      to="/Areas/tributario"
                       activeClassName="text-color-clicado"
                       className="hover:text-color-clicado text-color-white  ease-in transition-all"
                     >
@@ -137,7 +137,7 @@ export default function footer() {
                   </li>
                   <li>
                     <Link
-                      to="/Fale"
+                      to="/Areas/adminisrtativo"
                       activeClassName="text-color-clicado"
                       className="hover:text-color-clicado text-color-white  ease-in transition-all"
                     >

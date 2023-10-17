@@ -28,7 +28,7 @@ const Navbar = () => {
               )}
             </button>
           </div>
-            <ul className="md:flex mt-30 md:mt-0 gap-8 hidden font-thin text-sm translate-y-1/2">
+            <ul className="md:flex mt-30 md:mt-0 gap-8 hidden font-thin text-base">
               <li>
                 <Link
                   to="/"
@@ -49,7 +49,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/Areas"
+                  to="/Areas/familiar"
                   activeClassName="text-color-clicado"
                   className="hover:text-color-clicado ease-in transition-all"
                 >
@@ -75,19 +75,16 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
-          {/* </div> */}
-          {/* ---------------------------- */}  
-       
         </div>
         
         <div className="flex-col md:hidden mx-auto justify-center text-center ">
           <div className={` md:flex ${isOpen ? 'block' : 'hidden'}`}>
-              <ul className=" mt-30 md:mt-0 gap-10 font-bold mx-auto pb-5">
+              <ul className=" mt-30 md:mt-0 gap-10 font-bold mx-auto pb-5 text-xl">
                 <li>
                   <Link
                     to="/"
                     activeClassName="text-color-clicado"
-                    className="hover:text-color-clicado"
+                    className="hover:text-color-clicado "
                   >
                     Página Inicial
                   </Link>

@@ -1,4 +1,5 @@
 import React from 'react'
+import imagem from '../../assets/tributario.png'
 
 export default function Tributario_atua() {
   return (
@@ -7,7 +8,7 @@ export default function Tributario_atua() {
             <h1 className='text-color-clicado font-bold text-4xl'>Direito Tributário</h1>
         </div>
         <div className='filter grayscale hidden lg:block bg-color-white'>
-            <img className='w-fyll' src=''></img>
+            <img className='w-fyll' src={imagem}></img>
         </div>
         <div className='bg-color-white py-12 px-6 md:px-24'>
             <h1 className='text-color-clicado font-bold text-4xl'>O que é direito Tributário?</h1>

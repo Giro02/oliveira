@@ -9,7 +9,7 @@ const config: GatsbyConfig = {
   // If you use VSCode you can also use the GraphQL plugin
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
-  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  plugins: ["gatsby-plugin-netlify","gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
@@ -23,9 +23,13 @@ const config: GatsbyConfig = {
       enableListener: true,
       preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
       web: [
+        // {
+        //   name: `Merriweather`,
+        //   file: `https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap`,
+        // },
         {
-          name: `Merriweather`,
-          file: `https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap`,
+          name: `Gupter`,
+          // file:`https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap`,
         },
       ],
     },

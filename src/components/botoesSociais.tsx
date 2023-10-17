@@ -11,7 +11,7 @@ type ItemProps = PropsWithChildren<{
     return (
       <div
         onClick={onClick}
-        className={`${className} hover:text-color-white border-color-clicado hover:bg-color-clicado transition-all ease-in flex justify-center items-center min-h-[40px] w-11 hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10`} 
+        className={`${className} hover:text-color-white  border-color-clicado hover:bg-color-clicado transition-all ease-in flex justify-center items-center min-h-[40px] w-11 hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10`} 
       >
         {children}
       </div>

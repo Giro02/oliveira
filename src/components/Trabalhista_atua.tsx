@@ -1,4 +1,5 @@
 import React from 'react'
+import imagem from '../../assets/trabalhista.png'
 
 export default function Trabalhista_atua() {
   return (
@@ -6,7 +7,9 @@ export default function Trabalhista_atua() {
         <div className='bg-color-white pt-12 pb-4 '>
             <h1 className='text-color-clicado font-bold text-4xl'>Direito Trabalhista</h1>
         </div>
-        <div className='foto_trabalhista filter grayscale  hidden lg:block bg-color-white'></div>
+        <div className=' filter grayscale  hidden lg:block bg-color-white'>
+            <img className='w-full' src={imagem}></img>
+        </div>
         <div className='bg-color-white py-12 px-6 md:px-24'>
             <h1 className='text-color-clicado font-bold text-4xl'>O que é direito Trabalhista?</h1>
             <h1 className='text-color-black max-w-[800px] mt-8'>O Direito Trabalhista é uma área do direito que se concentra nas relações laborais entre empregadores e empregados. Sua principal função é proteger os direitos dos trabalhadores e regulamentar as condições de emprego. Isso inclui questões como contratos de trabalho, salários, horas de trabalho, férias, segurança no trabalho e direitos sindicais.</h1>

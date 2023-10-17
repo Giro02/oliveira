@@ -51,14 +51,14 @@ export default function ondeEstamos_fale() {
               <Typography color="gray" className="mt-1 font-normal text-color-clicado/70">
                 Mande-nos um e-mail:
               </Typography>
-              <form id='fs-frm' name='form1' className="mt-12 mb-8 w-80 max-w-screen-lg sm:w-96" action='https://formspree.io/f/mjvqpkye' method='POST'>
+              <form id='fs-frm' name='form1' className="mt-12 mb-8 w-80 max-w-screen-lg sm:w-96" action='https://formspree.io/f/meqbvdek' method='POST'>
                 <div className="mb-4 flex flex-col gap-6">
                   <Input required id="full-name" name='name' className='required px-4 rounded-xl h-10 bg-color-white border-2 border-color-clicado' placeholder="Nome"/>
                   <Input required id="email-address" name="_replyto" className="px-4 w-full rounded-xl h-10 bg-color-white border-2 border-color-clicado" placeholder="Email" />
                   <Input  className="px-4 w-full rounded-xl h-10 bg-color-white border-2 border-color-clicado" placeholder='Titulo'  />
                 </div>
                 <div>
-                  <Textarea required name="message" id="message" className='p-4 mt-8 rounded-sm h-32 bg-color-white border-2 border-color-clicado text-color-white' placeholder="Mensagem..." />
+                  <Textarea required name="message" id="message" className='text-color-black p-4 mt-8 rounded-sm h-32 bg-color-white border-2 border-color-clicado' placeholder="Mensagem..." />
                 </div>
                 <div>
                 <Input type='submit' value="Enviar"className="  w-auto h-[50px] mt-8 rounded-full cursor-pointer

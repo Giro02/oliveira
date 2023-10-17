@@ -1,4 +1,5 @@
 import React from 'react'
+import imagem from '../../assets/adm.png'
 
 export default function Administrativo_atua() {
   return (
@@ -6,7 +7,9 @@ export default function Administrativo_atua() {
         <div className='bg-color-white pt-12 pb-4 '>
             <h1 className='text-color-clicado font-bold text-4xl'>Direito Administrativo</h1>
         </div>
-        <div className='foto_adm filter grayscale hidden lg:block bg-color-white'></div>
+        <div className=' filter grayscale hidden lg:block bg-color-white'>
+        <img className='w-full' src={imagem}></img>
+        </div>
         <div className='bg-color-white py-12 px-6 md:px-24'>
             <h1 className='text-color-clicado font-bold text-4xl'>O que é direito Administrativo?</h1>
             <h1 className='text-color-black max-w-[800px] mt-8'>O Direito Administrativo é uma área do direito público que se dedica ao estudo e regulamentação da administração pública. Ele abrange um conjunto de normas e princípios que governam a atuação dos órgãos estatais, agentes públicos e entidades governamentais.</h1>

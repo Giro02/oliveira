@@ -1,0 +1,197 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+/static/Logo5-0e668dea7389f9915a38518cfb43bc6d.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/centro-e05d38d4ad4346d2ce734c4453d36eb3.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/static/whatsapp-c826b0165560636baf0bc8cd2030bb9f.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/mapasemlogo-e57bfbd27183ad90058ad347f92b039b.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/slide2-3e74276ea7b4d5cf4c94328d3d8918c5.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/static/mao800-3078817761cbd88c30ac5e063ab4590c.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/escritorio-9ed3fcfc9a7ae98f217da3f59e2d775e.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/slide3-4cb99c277bfb00872d92e5baa4288eb2.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/static/slide1-1cfd8b744eed3d837f94b77ffb0fa247.jpg
+  Cache-Control: public, max-age=31536000, immutable
+/static/civil-9999194e2f6d102d87ed186fdd609d3f.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/adm-2bc8fcdbbda38e0c42dd7d3bdb5d8cc0.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/familia-d14b888a72d98e5e6afa37ca43702e31.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/location-544299e93e511261442b86a6e9473e1d.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/tributario-5b8fb60d74a60a808547a84f31d1e564.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/trabalhista-9c61886f7763077ba217d77aa3f235fa.png
+  Cache-Control: public, max-age=31536000, immutable
+/styles.0d9480a520343905f798.css
+  Cache-Control: public, max-age=31536000, immutable
+/2a3fdd8a7a390d1e243f287a7d3dcbdca0c011eb-553ae0a3318fea3e2e53.js.LICENSE.txt
+  Cache-Control: public, max-age=31536000, immutable
+/app-70820576af033b9629f2.js.LICENSE.txt
+  Cache-Control: public, max-age=31536000, immutable
+/framework-8eeaa0a833bb2940ee35.js.LICENSE.txt
+  Cache-Control: public, max-age=31536000, immutable
+/app-70820576af033b9629f2.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-253b5a4e3c9300fc25b9.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-404-tsx-cac58647270682f53414.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-administrativo-tsx-684fdce92b8d389b936c.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-civil-tsx-ae75c28dd3abe7469251.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-familiar-tsx-b77a7b90c31b94494b0f.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-trabalhista-tsx-af1db69527eec16ab3d8.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-tributario-tsx-19d7a692e6c081eacb6e.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-tsx-5911c087583f69322e43.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-artigos-tsx-814ede106c050aa305bb.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-fale-tsx-77a91c5c7fb395108bec.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-tsx-ae43fe0cb008d3228efe.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-institucional-tsx-18e4a6ff0565ca7d650f.js
+  Cache-Control: public, max-age=31536000, immutable
+/framework-8eeaa0a833bb2940ee35.js
+  Cache-Control: public, max-age=31536000, immutable
+/2f0a67cd-ab4e18db23ba9205db5c.js
+  Cache-Control: public, max-age=31536000, immutable
+/252f366e-74290a0bbb6e326eb1be.js
+  Cache-Control: public, max-age=31536000, immutable
+/c7773329-5b1fa628399f355956c0.js
+  Cache-Control: public, max-age=31536000, immutable
+/1a48c3c1-b4d936458fcc565c5930.js
+  Cache-Control: public, max-age=31536000, immutable
+/0b308cfb-633a6469d564770f1222.js
+  Cache-Control: public, max-age=31536000, immutable
+/6728d85a-9b69ae44b157b3c6fc25.js
+  Cache-Control: public, max-age=31536000, immutable
+/a0e03aaa-8c927e7d61b9f92c31be.js
+  Cache-Control: public, max-age=31536000, immutable
+/0c428ae2-e1acf61a6331ecdbf575.js
+  Cache-Control: public, max-age=31536000, immutable
+/bd1a647f-3d9bd104d165bb619ac8.js
+  Cache-Control: public, max-age=31536000, immutable
+/0201ec8538ac388f3094755eac8dad033284cf79-194817c86db9f9c05bc8.js
+  Cache-Control: public, max-age=31536000, immutable
+/2a3fdd8a7a390d1e243f287a7d3dcbdca0c011eb-553ae0a3318fea3e2e53.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-70820576af033b9629f2.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-253b5a4e3c9300fc25b9.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-404-tsx-cac58647270682f53414.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-administrativo-tsx-684fdce92b8d389b936c.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-civil-tsx-ae75c28dd3abe7469251.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-familiar-tsx-b77a7b90c31b94494b0f.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-trabalhista-tsx-af1db69527eec16ab3d8.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-tributario-tsx-19d7a692e6c081eacb6e.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-tsx-5911c087583f69322e43.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-artigos-tsx-814ede106c050aa305bb.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-fale-tsx-77a91c5c7fb395108bec.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-tsx-ae43fe0cb008d3228efe.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-institucional-tsx-18e4a6ff0565ca7d650f.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/framework-8eeaa0a833bb2940ee35.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/2f0a67cd-ab4e18db23ba9205db5c.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/252f366e-74290a0bbb6e326eb1be.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/c7773329-5b1fa628399f355956c0.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/1a48c3c1-b4d936458fcc565c5930.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/0b308cfb-633a6469d564770f1222.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/6728d85a-9b69ae44b157b3c6fc25.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/a0e03aaa-8c927e7d61b9f92c31be.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/0c428ae2-e1acf61a6331ecdbf575.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/bd1a647f-3d9bd104d165bb619ac8.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/0201ec8538ac388f3094755eac8dad033284cf79-194817c86db9f9c05bc8.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/2a3fdd8a7a390d1e243f287a7d3dcbdca0c011eb-553ae0a3318fea3e2e53.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/0201ec8538ac388f3094755eac8dad033284cf79-baba4d190d696e6bfaa5.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/0201ec8538ac388f3094755eac8dad033284cf79-f97400895df63d4c9d69.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/2a3fdd8a7a390d1e243f287a7d3dcbdca0c011eb-d6116939845cb7b14ef8.js.LICENSE.txt
+  Cache-Control: public, max-age=31536000, immutable
+/2a3fdd8a7a390d1e243f287a7d3dcbdca0c011eb-d6116939845cb7b14ef8.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/app-cc02e4ad1219708451c9.js.LICENSE.txt
+  Cache-Control: public, max-age=31536000, immutable
+/app-cc02e4ad1219708451c9.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-administrativo-tsx-85d8e080412a694eb0cf.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-administrativo-tsx-bfdedf821c994958d5aa.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-civil-tsx-477a33c100c62e598b6a.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-civil-tsx-86a761ddf5ebbc3748a5.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-familiar-tsx-21df7ec34e9c009176fa.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-familiar-tsx-61ce00efa470ea66edd6.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-trabalhista-tsx-6dacd63bf413e289a109.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-trabalhista-tsx-bd3aca4dee21b81e105f.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-tributario-tsx-43a747981dee9dbbd5f2.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-tributario-tsx-a470aae30ec893931b0b.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-tsx-a7398968f05c8cede30a.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-areas-tsx-f42e0cdce23d4bb62765.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-artigos-tsx-c007cbc967f3e631ef13.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-fale-tsx-35c9adb24bf727609724.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-tsx-138a2516bc673b2bd6e1.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-institucional-tsx-4da230f6401c135c68b8.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-89d4766f4a95e3992b6f.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-df8c3be75ac1ac6b79b3.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache

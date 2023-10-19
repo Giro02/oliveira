@@ -1,10 +1,14 @@
-import React from 'react';
+import React , { useEffect, useState } from 'react';
 import BotoesAreasMenu from './BotoesAreasMenu';
 import { Link } from 'gatsby';
 import { withPrefix } from 'gatsby';
 
 export default function AreasMenu() {
-  const currentPath = withPrefix(window.location.pathname);
+  const [currentPath, setCurrentPath] = useState('');
+  useEffect(() => {
+    setCurrentPath(withPrefix(window.location.pathname));
+  }, []);
+  
   const isAreasFamiliarPage = currentPath === withPrefix('/Areas/familiar/');
   const isAreasCivilPage = currentPath === withPrefix('/Areas/civil/');
   const isAreasTributarioPage = currentPath === withPrefix('/Areas/tributario/');

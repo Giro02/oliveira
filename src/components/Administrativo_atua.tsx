@@ -1,5 +1,5 @@
 import React from 'react'
-import imagem from '../../assets/adm.png'
+import imagem from '../images/adm.png'
 
 export default function Administrativo_atua() {
   return (

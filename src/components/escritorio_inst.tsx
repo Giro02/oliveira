@@ -1,5 +1,5 @@
 import React from 'react'
-import escritorio from '../../assets/escritorio.png'
+import escritorio from '../images/escritorio.png'
 
 
 export default function escritorio_inst() {

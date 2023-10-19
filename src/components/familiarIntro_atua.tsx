@@ -1,5 +1,5 @@
 import React from 'react'
-import imagem from '../../assets/familia.png'
+import imagem from '../images/familia.png'
 
 export default function familiarIntro_atua() {
     

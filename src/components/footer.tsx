@@ -6,7 +6,7 @@ import { BiLogoLinkedin, BiLogoSkype, BiSolidTimeFive} from "react-icons/bi"
 import { TfiYoutube } from "react-icons/tfi"
 import { FaLocationDot } from "react-icons/fa6"
 import { MdEmail } from "react-icons/md"
-import logo from "../../assets/Logo5.png"
+import logo from "../images/Logo5.png"
 import BotaoSocial from './botoesSociais';
 
 

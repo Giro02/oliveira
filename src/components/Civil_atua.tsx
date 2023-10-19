@@ -1,5 +1,5 @@
 import React from 'react'
-import imagem from '../../assets/civil.png'
+import imagem from '../images/civil.png'
 
 export default function Civil_atua() {
   return (

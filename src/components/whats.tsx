@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react'
-import imagem1 from "../../assets/whatsapp.png"
+import imagem1 from "../images/whatsapp.png"
 
 export default function whats() {
   return (

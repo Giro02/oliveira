@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "gatsby"
 import { Button } from "@material-tailwind/react";
-import mao from '../../assets/mao800.png'
+import mao from '../images/mao800.png'
 
 
 

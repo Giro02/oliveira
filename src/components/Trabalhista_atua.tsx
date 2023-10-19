@@ -1,5 +1,5 @@
 import React from 'react'
-import imagem from '../../assets/trabalhista.png'
+import imagem from '../images/trabalhista.png'
 
 export default function Trabalhista_atua() {
   return (

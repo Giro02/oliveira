@@ -1,5 +1,5 @@
 import React from 'react'
-import imagem from '../../assets/tributario.png'
+import imagem from '../images/tributario.png'
 
 export default function Tributario_atua() {
   return (

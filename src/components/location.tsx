@@ -1,5 +1,5 @@
 import React from 'react'
-import local from "../../assets/location.png"
+import local from "../images/location.png"
 
 export default function location() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import mapa from '../../assets/mapasemlogo.png'
+import mapa from '../images/mapasemlogo.png'
 
 export default function localizacao_inst() {
   return (

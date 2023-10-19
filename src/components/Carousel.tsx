@@ -5,9 +5,9 @@ import { Button } from "@material-tailwind/react";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { useState } from "react";
 import { Transform } from "stream";
-import imagem1 from "../../assets/slide3.jpg";
-import imagem2 from "../../assets/slide2.jpg";
-import imagem3 from "../../assets/slide1.jpg";
+import imagem1 from "../images/slide3.jpg";
+import imagem2 from "../images/slide2.jpg";
+import imagem3 from "../images/slide1.jpg";
 import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 import Botao from '../components/botao'
 import Autoplay from 'embla-carousel-autoplay'

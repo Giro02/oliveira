@@ -1,5 +1,5 @@
 {
-  "homepage":"https://giro02.github.io/oliveira",
+  "homepage": "https://giro02.github.io/oliveira",
   "name": "oliveira",
   "version": "1.0.0",
   "private": true,
@@ -9,8 +9,7 @@
     "gatsby"
   ],
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "dev": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",

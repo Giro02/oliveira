@@ -6,6 +6,7 @@ import { BiLogoLinkedin, BiLogoSkype } from "react-icons/bi"
 import { TfiYoutube } from "react-icons/tfi"
 import { FaScaleUnbalanced } from "react-icons/fa6"
 import { Link } from 'gatsby';
+import BotaoSocial from './botoesSociais'
 
 
 export default function topnav() {
@@ -22,38 +23,33 @@ export default function topnav() {
         <div className='text-color-clicado flex justify-center items-center  min-h-[40px]'>
             <div>
                 <a target ="_blank" href='https://pt-br.facebook.com/'>
-                    <IconButton className=" shadow-none hover:text-color-white hover:bg-color-clicado transition-all ease-in
-                    min-h-[40px] w-11 border-r rounded-none border-[#686767] text-center 
-                    hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10">
-                        <GrFacebookOption size={'18px'}></GrFacebookOption>
-                    </IconButton>
+                    <BotaoSocial {...BotaoSocial.variants.header}>
+                        <GrFacebookOption></GrFacebookOption>
+                    </BotaoSocial>
                 </a>
             </div>
             
             <div>
                 <a target ="_blank" href='https://br.linkedin.com/company/oliveira-severo-sociedade-de-advogados'>
-                    <IconButton className="shadow-none hover:text-color-white hover:bg-color-clicado transition-all ease-in flex justify-center items-center
-                    min-h-[40px] rounded-none w-11 border-r border-[#686767] hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10">
+                    <BotaoSocial {...BotaoSocial.variants.header}>
                         <BiLogoLinkedin size={'18px'}></BiLogoLinkedin>
-                    </IconButton>
+                    </BotaoSocial>
                 </a>
             </div>
             
             <div>
                 <a target ="_blank" href=''>
-                    <IconButton className="shadow-none hover:text-color-white hover:bg-color-clicado transition-all ease-in flex justify-center items-center
-                    min-h-[40px] rounded-none w-11 border-r border-[#686767] hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10">
+                    <BotaoSocial {...BotaoSocial.variants.header}>
                         <BiLogoSkype size={'18px'}></BiLogoSkype>
-                    </IconButton>
+                    </BotaoSocial>
                 </a>
             </div>
 
             <div>
                 <a target ="_blank" href=''>
-                    <IconButton className="shadow-none hover:text-color-white hover:bg-color-clicado transition-all ease-in flex justify-center items-center
-                    min-h-[40px] rounded-none w-11 border-r border-[#686767] hover:shadow-[#ea4335]/20 focus:shadow-[#ea4335]/20 active:shadow-[#ea4335]/10">
+                    <BotaoSocial {...BotaoSocial.variants.header}>
                         <TfiYoutube size={'18px'}></TfiYoutube>
-                    </IconButton>
+                    </BotaoSocial>
                 </a>
             </div>
             

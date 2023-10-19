@@ -9,17 +9,17 @@ type Props ={
 export default function Botao({children}:Props) {
   return (
     <div>
-        <Button className="shadow-md w-auto py-2 md:mt-8 rounded-full  
+        <Button className="shadow-md mt-4 w-auto py-1 md:py-2 md:mt-8 rounded-full  
              flex flex-row items-center justify-center px-2 md:px-6 
              bg-color-clicado/90
              text-color-black2 
              hover:text-color-white
              hover:bg-color-clicado 
-             md:text-base
+             md:text-lg
              text-xs
               "
                      >{children}
-                     <BsFillArrowRightCircleFill className="h-5 w-auto ml-2 md:ml-5 md:h-6" />
+                     <BsFillArrowRightCircleFill className="h-5 w-auto ml-2 md:ml-5 md:h-7" />
                      </Button>
     </div>
   )

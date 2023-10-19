@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Link } from 'gatsby';
+import { Link, withPrefix } from 'gatsby';
 import { GiHamburgerMenu } from 'react-icons/Gi';
 import { HiXMark } from 'react-icons/hi2';
 import logo from "../../assets/Logo5.png"
@@ -11,6 +11,13 @@ const Navbar = () => {
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
+
+  const currentPath = withPrefix(window.location.pathname);
+  const isAreasFamiliarPage = currentPath === withPrefix('/Areas/familiar/');
+  const isAreasCivilPage = currentPath === withPrefix('/Areas/civil/');
+  const isAreasTributarioPage = currentPath === withPrefix('/Areas/tributario/');
+  const isAreasTrabalhistaPage = currentPath === withPrefix('/Areas/trabalhista/');
+  const isAreasAdministrativoPage = currentPath === withPrefix('/Areas/administrativo/');
 
   return (
     <div>
@@ -50,8 +57,10 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/Areas/familiar"
-                  activeClassName="text-color-clicado"
-                  className="hover:text-color-clicado ease-in transition-all"
+                  className={`hover:text-color-clicado ease-in transition-all 
+                  ${(isAreasCivilPage || isAreasFamiliarPage || isAreasTributarioPage || 
+                    isAreasTrabalhistaPage || isAreasAdministrativoPage) ? "text-color-clicado" : ""}`}
+
                 >
                   Áreas de Atuação
                 </Link>

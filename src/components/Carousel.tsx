@@ -5,17 +5,21 @@ import { Button } from "@material-tailwind/react";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { useState } from "react";
 import { Transform } from "stream";
-import imagem1 from "../../assets/slide1.jpg";
+import imagem1 from "../../assets/slide3.jpg";
 import imagem2 from "../../assets/slide2.jpg";
-import imagem3 from "../../assets/slide3.jpg";
+import imagem3 from "../../assets/slide1.jpg";
 import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 import Botao from '../components/botao'
+import Autoplay from 'embla-carousel-autoplay'
 
 export const EmblaCarousel = () => {
   const [selected, setSelected] = useState(0);
-  const [emblaRef,emblaApi] = useEmblaCarousel({
-    loop:true
-  });
+
+
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
+    Autoplay()
+  ])
+  
   const onSelect = useCallback((emblaApi) => {
    setSelected(emblaApi.selectedScrollSnap());
   }, [])
@@ -55,25 +59,30 @@ export const EmblaCarousel = () => {
     <div className="embla" ref={emblaRef}>
      
      <div className="embla__container">
+     
         <div className="embla__slide">
           <Item image={imagem1}><div className="font-serif ml-12 md:ml-0 lg:mr-96">
-            <h1 className="text-color-clicado text-sm md:text-lg lg:text-2xl">Atendimento personalizado</h1>
-            <h2 className="text-color-white w-72 md:w-auto text-sm font-bold md:text-lg lg:text-3xl">Advogados especializados em resolução de problemas</h2>
+            <h1 className="text-color-clicado text-sm md:text-lg lg:text-3xl">Atendimento personalizado</h1>
+            <h2 className="text-color-white md:w-auto text-sm font-bold md:text-lg lg:text-4xl">Especializados em resolução de problemas</h2>
             <a target='_blank' href="https://wa.me/553199788997?text=Quero discutir meu caso. Podemos conversar?"><Botao>Quero solucionar os meus problemas</Botao></a>
             </div></Item>
         </div>
         <div className="embla__slide">
-          <Item image={imagem2}><div className="font-serif ml-12 md:ml-0 lg:mr-96">
+          <Item image={imagem2}><div className="font-serif ml-6 md:ml-0 lg:mr-96">
+          <h1 className="text-color-clicado text-sm md:text-lg lg:text-3xl">Defendendo seus direitos</h1>
+            <h2 className="text-color-white max-w-[350px] md:w-auto text-xl font-bold md:text-4xl lg:text-6xl">Protegendo o seu futuro</h2>
             
-            <h2 className="text-color-white md:w-auto text-sm max-w-[200px] font-bold md:text-lg lg:text-6xl">Justiça para você</h2>
-            <h1 className="text-color-clicado text-sm md:text-lg lg:text-2xl">Expertise em direito ao seu favor</h1>
             <a target='_blank' href="https://wa.me/553199788997?text=Quero discutir meu caso. Podemos conversar?"><Botao>Consultoria sem compromisso</Botao></a>
             </div>
             
           </Item>
         </div>
         <div className="embla__slide">
-          <Item image={imagem3}>Test e1231231</Item>
+          <Item image={imagem3}><div className="font-serif ml-12 md:ml-0 lg:mr-96">
+            <h1 className="text-color-clicado text-sm md:text-lg lg:text-3xl">Nós defendemos você!</h1>
+            <h2 className="text-color-white md:w-auto text-sm font-bold md:text-lg lg:text-4xl">Experiência jurídica que você pode confiar.</h2>
+            <a target='_blank' href="https://wa.me/553199788997?text=Quero discutir meu caso. Podemos conversar?"><Botao>Marque uma reunião grátis</Botao></a>
+            </div></Item>
         </div>
       </div> 
 

@@ -19,7 +19,7 @@ export const EmblaCarousel = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
     Autoplay()
   ])
-  
+ 
   const onSelect = useCallback((emblaApi) => {
    setSelected(emblaApi.selectedScrollSnap());
   }, [])

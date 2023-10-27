@@ -24,14 +24,17 @@ const config: GatsbyConfig = {
       enableListener: true,
       preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
       web: [
-        // {
-        //   name: `Merriweather`,
-        //   file: `https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap`,
-        // },
         {
-          name: `Gupter`,
-          // file:`https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap`,
-        },
+          name:`serif`,
+          file: `https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap`,
+
+        }
+        ,
+        {
+          name:`lato`,
+          file:`https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap`,
+        }
+
       ],
     },
   },]

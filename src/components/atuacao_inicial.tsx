@@ -11,20 +11,23 @@ import AtuacaoCards from "./atuacaoCards";
 
 export default function atuacao_inicial() {
   return (
-    <div className="bg-no-repeat bg-center bg-cover py-28 flex justify-center bg-color-white font-serif">
-      <div className="flex flex-col items-center">
+    <div className="bg-no-repeat bg-center bg-cover pt-32 flex justify-center bg-color-black2">
+      <div className="flex flex-col">
         <div className=" flex items-center">
-          <h1 className="text-color-clicado font-bold text-3xl p-4">
-            Áreas de prática
+          <h1 className="text-color-clicado font-medium font-serif text-6xl px-4">
+            Áreas de atuação
           </h1>
         </div>
-        <div className="flex items-center flex-col mb-10 lg:mb-24 ">
-          <h1 className="text-color-white/70">
-            Oliveira Severo é um time full-service. Selecione{" "}
+        <div className="h-1 w-32 border-b border-color-clicado ml-4 mt-8"></div>
+        <div className="flex flex-col mb-10 lg:mb-24 px-4 mt-8">
+          <h1 className="text-color-white/70 max-w-[800px] font-lato text-[15px]">
+            Advocacia com respeito e individualidade: Nossa equipe de advogados
+            comprometidos entende a importância do seu caso. Com experiência em
+            várias áreas de atuação, nós lidaremos com seus problemas legais com
+            cuidado e profissionalismo.
           </h1>
-          <h1 className="text-color-white/70">abaixo uma área de atuação:</h1>
         </div>
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 pb-14">
+        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 pb-14">
           <AtuacaoCards
             TituloFront="Direito trabalhista"
             numero="01"
@@ -40,7 +43,7 @@ export default function atuacao_inicial() {
           <AtuacaoCards
             TituloFront="Inventário"
             numero="02"
-            front="Nossa missão é tornar o processo de inventário o mais tranquilo e eficiente possível para nossos clientes, aliviando o ônus emocional e simplificando as complexidades legais. Com nossa experiência e dedicação, estamos preparados para auxiliar famílias e indivíduos em todas as etapas do processo de inventário, proporcionando clareza e orientação durante um momento desafiador.
+            front="Nossa missão é tornar o processo de inventário o mais tranquilo e eficiente possível para nossos clientes, aliviando o ônus emocional e simplificando as complexidades legais. 
 
             "
             back="Nossa missão é tornar o processo de inventário o mais tranquilo e eficiente possível para nossos clientes, aliviando o ônus emocional e simplificando as complexidades legais. Com nossa experiência e dedicação, estamos preparados para auxiliar famílias e indivíduos em todas as etapas do processo de inventário, proporcionando clareza e orientação durante um momento desafiador.
@@ -53,14 +56,53 @@ export default function atuacao_inicial() {
             TituloFront="Causas de familia
             "
             numero="03"
-            front="Na área de Causas de Família, nosso escritório de advocacia está comprometido em fornecer suporte legal abrangente e sensível para indivíduos e famílias que enfrentam desafios pessoais e jurídicos em questões familiares. Nossa gama de serviços inclui: Divórcio e Separação; Guarda de Menores; Pensão Alimentícia; Partilha de Bens; Casamentos e Uniões Estáveis; entre outros.
-            "
+            front="Nosso escritório de advocacia possui uma vasta experiência e
+            conhecimento na área de Direito Trabalhista, atuando com dedicação
+            para proteger os direitos e interesses de trabalhadores e
+            empregadores."
             back="Nosso compromisso é oferecer soluções personalizadas e estratégicas em questões trabalhistas, buscando a melhor abordagem para atender às necessidades específicas de cada cliente. Com uma equipe de advogados experientes e especializados em Direito Trabalhista, estamos preparados para lidar com os desafios complexos que essa área pode apresentar, garantindo que nossos clientes estejam bem protegidos e informados.
           "
             TituloBack="Direito trabalhista"
           ></AtuacaoCards>
         </div>
+        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 pb-14">
+          <AtuacaoCards
+            TituloFront="Direito trabalhista"
+            numero="04"
+            front="Nosso escritório de advocacia possui uma vasta experiência e
+          conhecimento na área de Direito Trabalhista, atuando com dedicação
+          para proteger os direitos e interesses de trabalhadores e
+          empregadores."
+            back="Nosso compromisso é oferecer soluções personalizadas e estratégicas em questões trabalhistas, buscando a melhor abordagem para atender às necessidades específicas de cada cliente. Com uma equipe de advogados experientes e especializados em Direito Trabalhista, estamos preparados para lidar com os desafios complexos que essa área pode apresentar, garantindo que nossos clientes estejam bem protegidos e informados.
+          "
+            TituloBack="Direito trabalhista"
+          ></AtuacaoCards>
 
+          <AtuacaoCards
+            TituloFront="Inventário"
+            numero="05"
+            front="Nossa missão é tornar o processo de inventário o mais tranquilo e eficiente possível para nossos clientes, aliviando o ônus emocional e simplificando as complexidades legais. 
+
+            "
+            back="Nossa missão é tornar o processo de inventário o mais tranquilo e eficiente possível para nossos clientes, aliviando o ônus emocional e simplificando as complexidades legais. Com nossa experiência e dedicação, estamos preparados para auxiliar famílias e indivíduos em todas as etapas do processo de inventário, proporcionando clareza e orientação durante um momento desafiador.
+
+
+          "
+            TituloBack="Inventário"
+          ></AtuacaoCards>
+          <AtuacaoCards
+            TituloFront="Causas de familia
+            "
+            numero="06"
+            front="Nosso escritório de advocacia possui uma vasta experiência e
+            conhecimento na área de Direito Trabalhista, atuando com dedicação
+            para proteger os direitos e interesses de trabalhadores e
+            empregadores."
+            back="Nosso compromisso é oferecer soluções personalizadas e estratégicas em questões trabalhistas, buscando a melhor abordagem para atender às necessidades específicas de cada cliente. Com uma equipe de advogados experientes e especializados em Direito Trabalhista, estamos preparados para lidar com os desafios complexos que essa área pode apresentar, garantindo que nossos clientes estejam bem protegidos e informados.
+          "
+            TituloBack="Direito trabalhista"
+          ></AtuacaoCards>
+        </div>
         {/* <div className='grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pb-14'> 
                 
                 <div className="brilha flex flex-col text-lg gap-10 items-center justify-center

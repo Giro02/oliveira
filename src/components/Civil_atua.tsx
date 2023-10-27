@@ -5,7 +5,7 @@ export default function Civil_atua() {
   return (
     <div className='flex items-center font-serif flex-col bg-color-white'>
         <div className='bg-color-white pt-12 pb-4 '>
-            <h1 className='text-color-clicado font-bold text-4xl'>Direito Civil</h1>
+            <h1 className='text-color-clicado font-bold hidden lg:block text-4xl'>Direito Civil</h1>
         </div>
         <div className='hidden lg:block bg-color-white'>
             <img className='w-full' src={imagem}></img>

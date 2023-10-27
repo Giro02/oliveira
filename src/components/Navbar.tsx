@@ -112,7 +112,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/Areas"
+                    to="/Areas/familiar"
                     activeClassName="text-color-clicado"
                     className="hover:text-color-clicado"
                   >
@@ -142,60 +142,9 @@ const Navbar = () => {
         </div>
         
       </nav>
-      {/* <DevScreenDebug /> */}
     </div>
   );
   
 };
 
 export default Navbar;
-
-
-// export function DevScreenDebug() {
-//   const [dimensions, setDimensions] = useState({w: 0, h: 0});
-//   const [hidden, setHidden] = useState(false);
-
-//   const hide = useCallback(() => {
-//     setHidden(true);
-//   }, [setHidden]);
-
-//   const onResize = useCallback(() => {
-//     setDimensions({w: window.innerWidth, h: window.innerHeight});
-//   }, [setDimensions]);
-
-//   useEffect(() => {
-//     window.addEventListener('resize', onResize);
-//     onResize();
-//     return () => {
-//       window.removeEventListener('resize', onResize);
-//     };
-//   }, [onResize]);
-
-//   if (typeof window === 'object' && window.location.port === '') {
-//     // non dev env
-//     return null;
-//   }
-
-//   if (hidden) {
-//     return null;
-//   }
-//   return (
-//     <button
-//       title="Click to hide"
-//       onClick={hide}
-//       tabIndex={-1}
-//       className="fixed bottom-0 right-0 z-[9999] bg-black bg-opacity-50 p-2 text-sm text-white opacity-30"
-//     >
-//       <div>
-//         <span className="hidden sm:inline">SM</span>
-//         <span className="hidden md:inline">- MD</span>
-//         <span className="hidden lg:inline">- LG</span>
-//         <span className="hidden xl:inline">- XL</span>
-//         <span className="hidden 2xl:inline">- 2XL</span>
-//       </div>
-//       <div className="text-xs font-bold">
-//         {dimensions.w}x{dimensions.h}
-//       </div>
-//     </button>
-//   );
-// }

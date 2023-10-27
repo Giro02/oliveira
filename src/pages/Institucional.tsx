@@ -17,7 +17,7 @@ export default function Institucional() {
       <Topnav></Topnav>
       <Navbar/>
       <Whats></Whats>
-      <Apresentacao_inst></Apresentacao_inst>
+      {/* <Apresentacao_inst></Apresentacao_inst> */}
       <Escritorio_inst></Escritorio_inst>
       <NossaCultura_inst></NossaCultura_inst>
       <Cards_inst></Cards_inst>

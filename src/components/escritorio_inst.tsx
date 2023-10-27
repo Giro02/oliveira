@@ -7,12 +7,12 @@ export default function escritorio_inst() {
     <div className='flex items-center font-serif'>
         <div className='bg-color-white py-12 px-6 md:px-24'>
             <h1 className='text-color-clicado font-bold text-4xl'>O escritório</h1>
-            <h1 className='text-color-black2 max-w-[800px] mt-8'>Com uma trajetória de mais de 25 anos de atuação, somos um escritório de advocacia fundado em 1998. Nossa missão é ajudar empresas e empreendedores a lidar melhor com o Direito. Nosso papel é impedir que a falta de conhecimento jurídico atrapalhe o potencial de crescimento do seu negócio e de seus clientes.</h1>
-            <h1 className='text-color-black2 max-w-[800px] mt-8'>Temos desempenhado um papel fundamental na resolução de questões complexas relacionadas a transações imobiliárias, contratos e litígios, garantindo segurança e proteção aos interesses de nossos clientes. Além disso, nossa expertise na Constituição de Holdings Familiares, Direito de Família e Direito Sucessório tem proporcionado soluções personalizadas e estratégicas para as necessidades específicas de nossos clientes, consolidando nossa reputação de confiança e competência.</h1>
-            <h1 className='text-color-black2 max-w-[800px] mt-8'>Nosso compromisso inabalável com a qualidade e o conhecimento jurídico nos mantém na vanguarda do campo jurídico, prontos para continuar oferecendo serviços jurídicos de alto nível e ajudando nossos clientes a alcançar seus objetivos de forma segura e eficaz.</h1>
+            <h1 className='text-color-black2 max-w-[800px] mt-8'>A Sociedade de Advogados Oliveira Severo atua a mais de 25 anos na área de Assessoria Jurídica e Contencioso. Prezando pela ética e eficiência nos seus contratos de prestações de serviços advocatícios, atualmente o escritório conta com trê advogados e um estagiário, que estão disponíveis para eventuais demandas.</h1>
+            <h1 className='text-color-black2 max-w-[800px] mt-8'>Nós prezamos pela prestação personalizada e modernizada do serviço jurídico, com foco na prevenção de riscos e no consequente alcance de resultados. O escritório se compromete com a excelência no atendimento aos nossos clientes e entende que cada caso deve ser tratado de forma única.</h1>
         </div>
         <div>
-          <img className='bg-cover bg-no-repeat hidden xl:block'  src={escritorio}></img>
+          {/* <img className='bg-cover bg-no-repeat hidden xl:block'  src={escritorio}></img> */}
+
         </div>
     </div>
   )

@@ -20,9 +20,6 @@ export default function Apresentacao() {
             <h1 className=' text-color-black2 mt-10  text-md text-base '>Acreditamos que a prevenção e a educação jurídica é a melhor forma de advogar para uma empresa inovadora!</h1>
             <h1 className=' text-color-black2 mt-8  text-md  text-base'>Somos um escritório de advocacia fundado em 1998. Nossa missão é ajudar empresas e empreendedores a lidar melhor com o Direito. Nosso papel é impedir que a falta de conhecimento jurídico atrapalhe o potencial de crescimento do seu negócio e de seus clientes.</h1>
             <h1 className=' text-color-black2 mt-8  text-md  text-base'>Acreditamos que a prevenção e a educação jurídica é a melhor forma de Advocacia! E que o Direito deve ser transmitido de maneira democrática e simples para o empreendedor!</h1>
-
-          
-
             <Link to='/Institucional'><Button className="shadow-md w-[250px] h-[50px] mt-8 rounded-full 
                     bg-color-clicado/90
                     text-color-black2 text-sm transition-all ease-in

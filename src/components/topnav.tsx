@@ -1,11 +1,9 @@
 import React from 'react'
 import { HiMiniDevicePhoneMobile } from 'react-icons/hi2';
-import { IconButton } from "@material-tailwind/react";
-import { GrFacebookOption } from "react-icons/gr"
-import { BiLogoLinkedin, BiLogoSkype } from "react-icons/bi"
-import { TfiYoutube } from "react-icons/tfi"
+import { BiLogoLinkedin} from "react-icons/bi"
+import { AiFillInstagram } from 'react-icons/ai'
 import { FaScaleUnbalanced } from "react-icons/fa6"
-import { Link } from 'gatsby';
+import { MdEmail } from 'react-icons/md'
 import BotaoSocial from './botoesSociais'
 
 
@@ -21,13 +19,6 @@ export default function topnav() {
             <h2>(31) 32748997</h2>
         </div> 
         <div className='text-color-clicado flex justify-center items-center  min-h-[40px]'>
-            <div>
-                <a target ="_blank" href='https://pt-br.facebook.com/'>
-                    <BotaoSocial {...BotaoSocial.variants.header}>
-                        <GrFacebookOption></GrFacebookOption>
-                    </BotaoSocial>
-                </a>
-            </div>
             
             <div>
                 <a target ="_blank" href='https://br.linkedin.com/company/oliveira-severo-sociedade-de-advogados'>
@@ -36,19 +27,19 @@ export default function topnav() {
                     </BotaoSocial>
                 </a>
             </div>
-            
+
             <div>
-                <a target ="_blank" href=''>
+                <a target ="_blank" href='administrativo@oliveirasevero.adv.br'>
                     <BotaoSocial {...BotaoSocial.variants.header}>
-                        <BiLogoSkype size={'18px'}></BiLogoSkype>
+                        <MdEmail size={'18px'}></MdEmail>
                     </BotaoSocial>
                 </a>
             </div>
 
             <div>
-                <a target ="_blank" href=''>
+                <a target ="_blank" href='https://www.instagram.com/oliveiraseveroadv/'>
                     <BotaoSocial {...BotaoSocial.variants.header}>
-                        <TfiYoutube size={'18px'}></TfiYoutube>
+                        <AiFillInstagram size={'18px'}></AiFillInstagram>
                     </BotaoSocial>
                 </a>
             </div>

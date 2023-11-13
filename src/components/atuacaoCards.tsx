@@ -21,7 +21,7 @@ export default function atuacaoCards({
       <div className="row flip-boxes">
         <div className="col-md-3 col-sm-4 col-8 flip-box">
           <div className="front px-8 bg-color-black py-12 rounded-xl">
-            <div className="content max-w-[325px]">
+            <div className="content max-w-[325px] h-[275px] lg:h-[250px]">
               <div className="text-color-clicado font-serif text-4xl">
                 {numero}
               </div>
@@ -35,8 +35,8 @@ export default function atuacaoCards({
           </div>
           <div className="back rounded-xl">
             <div className="content text-color-white p-4 text-center">
-              <div className="text-xl">{TituloBack}</div>
-              <p className="mt-4">{back}</p>
+              <div className="text-2xl font-serif mt-4">{TituloBack}</div>
+              <p className="mt-4 text-[15px]">{back}</p>
             </div>
           </div>
         </div>

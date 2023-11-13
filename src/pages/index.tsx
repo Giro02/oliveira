@@ -1,24 +1,22 @@
-
-import * as React from 'react'
-import { Link } from 'gatsby'
-import Navbar from "../components/Navbar"
-import Topnav from "../components/topnav"
-import Atua from "../components/atuacao_inicial"
-import { EmblaCarousel } from "../components/Carousel"
-import Apresentacao from "../components/apresentacao"
-import Agende from "../components/agende"
-import Footer from "../components/footer"
-import Location from "../components/location"
-import Reuniao from "../components/reuniao"
-import Top_reuniao from "../components/top_reuniao"
-import Whats from "../components/whats"
-
+import * as React from "react";
+import { Link } from "gatsby";
+import Navbar from "../components/Navbar";
+import Topnav from "../components/topnav";
+import Atua from "../components/atuacao_inicial";
+import { EmblaCarousel } from "../components/Carousel";
+import Apresentacao from "../components/apresentacao";
+import Agende from "../components/agende";
+import Footer from "../components/footer";
+import Location from "../components/location";
+import Reuniao from "../components/reuniao";
+import Top_reuniao from "../components/top_reuniao";
+import Whats from "../components/whats";
 
 const IndexPage = () => {
   return (
     <main>
-      <Topnav></Topnav> 
-      <Navbar/>
+      <Topnav></Topnav>
+      <Navbar />
       <Whats></Whats>
       <EmblaCarousel></EmblaCarousel>
       <Atua></Atua>
@@ -29,9 +27,9 @@ const IndexPage = () => {
       <Location></Location>
       <Footer></Footer>
     </main>
-  )
-}
+  );
+};
 
-export const Head = () => <title>Oliveira Severo</title>
+export const Head = () => <title>Oliveira Severo</title>;
 
-export default IndexPage
+export default IndexPage;

@@ -26,6 +26,7 @@ module.exports = {
         white:"rgb(255 255 255)",
         clicado:'#C39F76',
         verde:"rgb(185 28 28)",
+        cinza:"rgb(186, 186, 186)",
       }
     },
   },

@@ -11,6 +11,7 @@ import Location from "../components/location";
 import Reuniao from "../components/reuniao";
 import Top_reuniao from "../components/top_reuniao";
 import Whats from "../components/whats";
+import PergFreq from "../components/PergFreq";
 
 const IndexPage = () => {
   return (
@@ -21,9 +22,12 @@ const IndexPage = () => {
       <EmblaCarousel></EmblaCarousel>
       <Atua></Atua>
       <Apresentacao></Apresentacao>
+
       <Top_reuniao></Top_reuniao>
+
       <Agende></Agende>
       <Reuniao></Reuniao>
+      <PergFreq></PergFreq>
       <Location></Location>
       <Footer></Footer>
     </main>

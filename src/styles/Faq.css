@@ -1,0 +1,51 @@
+
+.Fade-out{
+    overflow: hidden;
+    animation: fadeOut;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeOut{
+    0%{
+        max-height: 400px;
+        padding: 15px;
+        border-color: rgb(186, 186, 186);
+        border-width: 1px;
+        border-top: 0px;
+        transform: rotateX(0deg);
+    }
+    100%{
+        max-height: 0px;
+        border-color: rgb(186, 186, 186);
+        padding-right: 15px;
+        padding-left: 15px;
+        transform: rotateX(45deg);
+    }
+  }
+
+
+.Fade {
+    overflow: hidden;
+    animation: fade;
+    animation-duration: 2s;
+    padding:15px;
+    border-color: rgb(186, 186, 186);
+    border-width: 1px;
+    border-top: 0px;
+  }
+  @keyframes fade{
+    0%{
+        max-height: 0px;
+   }
+
+    100%{
+        max-height: 400px;
+        
+    }
+  }
+
+
+
+
+ 
+  

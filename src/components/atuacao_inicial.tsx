@@ -4,7 +4,7 @@ import AtuacaoCards from "./atuacaoCards";
 
 export default function atuacao_inicial() {
   return (
-    <div className="bg-no-repeat bg-center bg-cover pt-32 flex justify-center bg-color-black2">
+    <div className="bg-no-repeat bg-center bg-cover py-32 flex justify-center bg-color-black2">
       <div className="flex flex-col">
         <div className=" flex items-center">
           <h1 className="text-color-clicado font-bold font-serif text-5xl px-4">
@@ -72,7 +72,7 @@ export default function atuacao_inicial() {
             numero="05"
             front="Nossa assessoria jurídica contínua é um serviço essencial que oferecemos para empresas e indivíduos, garantindo que você tenha acesso a orientação jurídica regular e especializada em uma variedade de áreas do direito.  
             "
-            back="Nossa missão é tornar o processo de inventário o mais tranquilo e eficiente possível para nossos clientes, aliviando o ônus emocional e simplificando as complexidades legais. Com nossa experiência e dedicação, estamos preparados para auxiliar famílias e indivíduos em todas as etapas do processo de inventário, proporcionando clareza e orientação durante um momento desafiador.
+            back="Através da nossa abordagem proativa, buscamos antecipar potenciais problemas legais e oferecer soluções estratégicas, permitindo que você foque no crescimento do seu negócio ou em seus objetivos pessoais com confiança.
 
 
           "

@@ -35,7 +35,7 @@ export default function Apresentacao() {
           <Link to="/Institucional">
             <Button
               className="shadow-md w-[250px] h-[50px] mt-8 rounded-full 
-                    bg-color-clicado/90
+                    bg-color-clicado
                     text-color-black2 text-sm transition-all ease-in
                     hover:text-color-white
                     hover:bg-color-clicado 

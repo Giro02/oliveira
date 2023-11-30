@@ -15,14 +15,6 @@ const Navbar = () => {
   useEffect(() => {
     setCurrentPath(withPrefix(window.location.pathname));
   }, []);
-  const isAreasFamiliarPage = currentPath === withPrefix("/Areas/familiar/");
-  const isAreasCivilPage = currentPath === withPrefix("/Areas/civil/");
-  const isAreasTributarioPage =
-    currentPath === withPrefix("/Areas/tributario/");
-  const isAreasTrabalhistaPage =
-    currentPath === withPrefix("/Areas/trabalhista/");
-  const isAreasAdministrativoPage =
-    currentPath === withPrefix("/Areas/administrativo/");
 
   return (
     <div>
@@ -64,32 +56,6 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/Areas/familiar"
-                className={`hover:text-color-clicado ease-in transition-all 
-                  ${
-                    isAreasCivilPage ||
-                    isAreasFamiliarPage ||
-                    isAreasTributarioPage ||
-                    isAreasTrabalhistaPage ||
-                    isAreasAdministrativoPage
-                      ? "text-color-clicado"
-                      : ""
-                  }`}
-              >
-                Áreas de Atuação
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/Artigos"
-                activeClassName="text-color-clicado"
-                className="hover:text-color-clicado ease-in transition-all"
-              >
-                Artigos
-              </Link>
-            </li>
-            <li>
-              <Link
                 to="/Fale"
                 activeClassName="text-color-clicado"
                 className="hover:text-color-clicado ease-in transition-all"
@@ -119,24 +85,6 @@ const Navbar = () => {
                   className="hover:text-color-clicado"
                 >
                   Institucional
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/Areas/familiar"
-                  activeClassName="text-color-clicado"
-                  className="hover:text-color-clicado"
-                >
-                  Áreas de Atuação
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/Artigos"
-                  activeClassName="text-color-clicado"
-                  className="hover:text-color-clicado"
-                >
-                  Artigos
                 </Link>
               </li>
               <li>

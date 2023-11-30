@@ -8,16 +8,16 @@ import BotaoSocial from "./botoesSociais";
 
 export default function topnav() {
   return (
-    <div className=" bg-color-black2 font-serif font-extrabold lg:flex-row text-color-white flex justify-evenly items-center flex-col">
+    <div className=" bg-color-black2 font-lato  lg:flex-row text-color-white flex justify-evenly items-center flex-col">
       <div className="flex-row flex items-center gap-3 text-sm">
-        <FaScaleUnbalanced className="text-color-clicado  h-5 w-5"></FaScaleUnbalanced>
-        <h2 className="text-sm">
+        <FaScaleUnbalanced className="text-color-clicado  h-6 w-6"></FaScaleUnbalanced>
+        <h2 className="text-xs ">
           R. São Paulo 1071, sala 515, Centro, BH – MG, 30170-131
         </h2>
       </div>
-      <div className="flex-row flex items-center gap-3 text-color-clicado text-base">
-        <HiMiniDevicePhoneMobile className="h-5 w-5"></HiMiniDevicePhoneMobile>
-        <h2>(31) 32748997</h2>
+      <div className="flex-row flex items-center gap-3 text-color-clicado text-xs">
+        <HiMiniDevicePhoneMobile className="h-6 w-6"></HiMiniDevicePhoneMobile>
+        <h2>(31) 3274-8997</h2>
       </div>
       <div className="text-color-clicado flex justify-center items-center  min-h-[40px]">
         <div>
@@ -32,7 +32,7 @@ export default function topnav() {
         </div>
 
         <div>
-          <a target="_blank" href="administrativo@oliveirasevero.adv.br">
+          <a target="_blank" href="mailto:administrativo@oliveirasevero.adv.br">
             <BotaoSocial {...BotaoSocial.variants.header}>
               <MdEmail size={"18px"}></MdEmail>
             </BotaoSocial>

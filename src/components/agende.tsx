@@ -13,15 +13,15 @@ import "../styles/atua.css";
 
 export default function agende() {
   return (
-    <div className="flex jusitfy-center font-serif">
+    <div className="flex jusitfy-center font-lato">
       <div className=" pt-14 bg-cover flex flex-col xl:flex-row  w-screen items-center justify-evenly bg-color-black2">
         <div className="flex items-center p-8 flex-col md:flex-row lg:fl gap-8 xl:gap-16 2xl:gap-24">
           <div>
-            <div className="shadow bg-color-blacktrans rounded-lg p-8 max-w-[325px]">
-              <div className="text-color-clicado font-bold text-xl">
+            <div className="shadow bg-color-clicado/90 rounded-lg p-8 max-w-[325px]">
+              <div className="text-color-black2 font-bold font-lato text-xl">
                 Compromisso com os Clientes:
               </div>
-              <div className="text-color-white/70 mt-8 font-lato">
+              <div className="text-color-white/80 mt-7">
                 Nossa empresa tem um compromisso inabalável com os interesses
                 dos nossos clientes. Estamos aqui para ouvir, entender e atender
                 às suas necessidades legais com dedicação e paixão.
@@ -29,22 +29,22 @@ export default function agende() {
             </div>
           </div>
           <div className="flex flex-col gap-8 xl:gap-16 2xl:gap-24">
-            <div className="shadow bg-gradient-to-b from-color-black to-color-black2 rounded-lg p-8 max-w-[325px]">
-              <div className="text-color-clicado font-bold text-xl">
+            <div className="shadow bg-color-clicado/90 rounded-lg p-8 max-w-[325px]">
+              <div className="text-color-black2 font-bold text-xl">
                 Atenção Personalizada:
               </div>
-              <div className="text-color-white/70 mt-8  font-lato">
+              <div className="text-color-white/80 mt-7 ">
                 Cada cliente é especial para nós. Oferecemos atenção
                 personalizada, sempre disponíveis para esclarecer dúvidas e
                 orientar em cada etapa do processo legal.
               </div>
             </div>
 
-            <div className="shadow bg-gradient-to-b from-color-black to-color-black2 rounded-lg p-8 max-w-[325px]">
-              <div className="text-color-clicado font-bold text-xl">
+            <div className="shadow bg-color-clicado/90 rounded-lg p-8 max-w-[325px]">
+              <div className="text-color-black2 font-bold text-xl">
                 Excelência em Advocacia:
               </div>
-              <div className="text-color-white/70 mt-8 font-lato">
+              <div className="text-color-white/80 mt-7">
                 Nossa busca constante pela excelência jurídica reflete nosso
                 compromisso em superar expectativas e oferecer um serviço
                 jurídico excepcionalmente confiável e eficaz.

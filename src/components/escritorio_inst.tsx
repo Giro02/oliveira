@@ -41,7 +41,6 @@ export default function escritorio_inst() {
           texto="Contamos com uma equipe de visionários e peritos, prontos para acolher suas necessidades específicas, compreendendo e moldando cada desafio de forma singular em direção a um relato de sucesso inigualável."
         ></VectorsEscolha>
       </div>
-      <div></div>
     </div>
   );
 }

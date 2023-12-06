@@ -9,15 +9,16 @@ import BotaoSocial from "./botoesSociais";
 export default function topnav() {
   return (
     <div className=" bg-color-black2 font-lato  lg:flex-row text-color-white flex justify-evenly items-center flex-col">
-      <div className="flex-row flex items-center gap-3 text-sm">
+      <div className="flex-row flex items-center p-2 gap-3 text-sm">
         <FaScaleUnbalanced className="text-color-clicado  h-6 w-6"></FaScaleUnbalanced>
         <h2 className="text-xs ">
-          R. São Paulo 1071, sala 515, Centro, BH – MG, 30170-131
+          R. São Paulo 1071, salas 509 a 517, Centro - Belo Horizonte/ MG, CEP:
+          30170-907
         </h2>
       </div>
       <div className="flex-row flex items-center gap-3 text-color-clicado text-xs">
         <HiMiniDevicePhoneMobile className="h-6 w-6"></HiMiniDevicePhoneMobile>
-        <h2>(31) 3274-8997</h2>
+        <h2 className="text-color-white">(31) 3274-8997</h2>
       </div>
       <div className="text-color-clicado flex justify-center items-center  min-h-[40px]">
         <div>

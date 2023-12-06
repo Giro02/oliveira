@@ -9,7 +9,7 @@ import BotaoSocial from "./botoesSociais";
 
 export default function footer() {
   return (
-    <div className="bg-color-black2 p-16 px-8 md:px-16 font-serif">
+    <div className="bg-color-black2 p-16 px-8 md:px-16 font-lato">
       <div className="flex flex-col lg:flex-row justify-evenly p-6 md:p-12 border border-color-clicado">
         <div className="flex flex-col gap-6 justify-evenly">
           <img className="max-w-[286px]" src={logo}></img>
@@ -45,7 +45,7 @@ export default function footer() {
           </div>
         </div>
         <div className="flex flex-col">
-          <div className="text-color-clicado font-bold text-xl mb-6">
+          <div className="text-color-clicado font-bold font-serif text-xl mb-6">
             O Escritório
           </div>
           <div className="text-color-clicado">
@@ -82,7 +82,7 @@ export default function footer() {
           </div>
         </div>
         <div className="text-color-white flex flex-col">
-          <h1 className="text-color-clicado font-bold text-xl mb-6">
+          <h1 className="text-color-clicado font-serif font-bold text-xl mb-6">
             Areas de atuação
           </h1>
           <ul className="md:flex mt-30 md:mt-0 flex flex-col gap-4 text-sm ">
@@ -105,31 +105,33 @@ export default function footer() {
         </div>
 
         <div>
-          <div className="text-color-clicado font-bold text-lg">
+          <div className="text-color-clicado font-serif font-bold text-lg">
             Onde estamos
           </div>
           <div className="flex pb-2  bg-color-black2   border-b border-color-clicado/70 items-center">
             <FaLocationDot className="text-3xl text-color-clicado"></FaLocationDot>
-            <div className="text-color-white ml-2 text-sm">
-              R. São Paulo 1071, sala 515, Centro, BH – MG, 30170-131
+            <div className="text-color-white ml-2 text-sm my-2">
+              R. São Paulo 1071, salas 509 a 517, Centro - Belo Horizonte/
+              MG, CEP: 30170-907
             </div>
           </div>
-          <div className="text-color-clicado font-bold text-lg mt-4">
+          <div className="text-color-clicado font-serif font-bold text-lg mt-4">
             Horário de atendimento
           </div>
           <div className="flex pb-2 bg-color-black2   border-b border-color-clicado/70 items-center">
             <BiSolidTimeFive className="text-3xl text-color-clicado"></BiSolidTimeFive>
-            <div className="text-color-white ml-2 text-sm">
+            <div className="text-color-white ml-2 text-sm my-2">
               Atendimento de Segunda à Sexta-feira das 8h às 17h{" "}
             </div>
           </div>
-          <div className="text-color-clicado font-bold text-lg mt-4">
+          <div className="text-color-clicado font-serif font-bold text-lg mt-4">
             Envie um email para nossa equipe
           </div>
-          <div className="flex pb-2  bg-color-black2   border-b border-color-clicado/70 items-center">
+          <div className="flex pb-2  bg-color-black2  border-b border-color-clicado/70 items-center">
             <MdEmail className="text-3xl text-color-clicado"></MdEmail>
-            <div className="text-color-white ml-2 text-sm">
-              administrativo@oliveirasevero.adv.br
+            <div className="text-color-white ml-2 text-sm flex-col my-2">
+              <div>administrativo@oliveirasevero.adv.br</div>
+              <div>severo@jsevero.com</div>
             </div>
           </div>
         </div>

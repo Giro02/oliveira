@@ -28,8 +28,9 @@ export default function ondeEstamos_fale() {
           {/* <div className='text-color-clicado font-bold text-lg'>Onde estamos</div> */}
           <div className="flex pb-2   mt-6 border-b border-color-clicado/70 items-center">
             <FaLocationDot className="text-3xl text-color-clicado"></FaLocationDot>
-            <div className="text-color-black ml-2 text-lg">
-              R. São Paulo 1071, sala 515, Centro, BH – MG, 30170-131
+            <div className="text-color-black ml-2 text-lg font-lato">
+              R. São Paulo 1071, salas 509 a 517, Centro - Belo Horizonte/
+              MG, CEP: 30170-907
             </div>
           </div>
           <div className="text-color-clicado font-bold text-lg mt-4">
@@ -37,7 +38,7 @@ export default function ondeEstamos_fale() {
           </div>
           <div className="flex pb-2    border-b border-color-clicado/70 items-center">
             <BiSolidTimeFive className="text-3xl text-color-clicado"></BiSolidTimeFive>
-            <div className="text-color-black ml-2 text-lg">
+            <div className="text-color-black ml-2 text-lg font-lato">
               Atendimento de Segunda à Sexta-feira das 8h às 17h{" "}
             </div>
           </div>
@@ -46,13 +47,14 @@ export default function ondeEstamos_fale() {
           </div>
           <div className="flex pb-2    border-b border-color-clicado/70 items-center">
             <MdEmail className="text-3xl text-color-clicado"></MdEmail>
-            <div className="text-color-black ml-2 text-lg">
-              severo@oliveirasevero.adv.br
+            <div className="text-color-black ml-2 text-lg font-lato">
+              <div>severo@oliveirasevero.adv.br</div>
+              <div>severo@jsevero.com</div>
             </div>
           </div>
         </div>
       </div>
-      <div className="shadow p-6 md:p-8 bg-color-white rounded-xl w-90">
+      <div className="shadow p-6 md:p-8 bg-color-white rounded-xl w-90 font-lato">
         <Card color="transparent" shadow={false}>
           <div className="flex flex-row w-full">
             <Typography className="text-color-clicado font-bold text-2xl ">

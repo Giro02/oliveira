@@ -1,6 +1,13 @@
 name: Node.js CI
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
+env:
+  FTP_USER: ${{ vars.FTP_USER }}
+  FTP_PASSWORD: ${{ vars.FTP_PASSWORD }}
+  FTP_HOST: ${{ vars.FTP_HOST }}
 
 jobs:
   build:

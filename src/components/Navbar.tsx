@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Link, withPrefix } from "gatsby";
-import { GiHamburgerMenu } from "react-icons/Gi";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { HiXMark } from "react-icons/hi2";
 import logo from "../images/Logo5.png";
 
@@ -15,7 +15,7 @@ const Navbar = () => {
   useEffect(() => {
     setCurrentPath(withPrefix(window.location.pathname));
   }, []);
-
+  //
   return (
     <div>
       <nav className="bg-color-black text-color-white font-serif font-extrabold">

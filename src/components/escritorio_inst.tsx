@@ -3,8 +3,7 @@ import VectorsEscolha from "./VectorsEscolha";
 import { VscLaw } from "react-icons/vsc";
 import { ImHammer2 } from "react-icons/im";
 import { BsBank } from "react-icons/bs";
-import { GiHandcuffs } from "react-icons/Gi";
-import a from "../images/LogoVertical.png";
+import { GiHandcuffs } from "react-icons/gi";
 
 export default function escritorio_inst() {
   return (
